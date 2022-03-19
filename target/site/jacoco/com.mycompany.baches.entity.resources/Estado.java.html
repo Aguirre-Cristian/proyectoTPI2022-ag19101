@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Estado.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Baches-1.0-SNAPSHOT</a> &gt; <a href="index.source.html" class="el_package">com.mycompany.baches.entity.resources</a> &gt; <span class="el_source">Estado.java</span></div><h1>Estado.java</h1><pre class="source lang-java linenums">/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.baches.entity.resources;
+
+import java.io.Serializable; 
+import java.util.Date;
+import java.util.List;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+/**
+ *
+ * @author crisagui
+ */
+@Entity
+@Table(name = &quot;estado&quot;, catalog = &quot;baches&quot;, schema = &quot;public&quot;)
+@NamedQueries({
+    @NamedQuery(name = &quot;Estado.findAll&quot;, query = &quot;SELECT e FROM Estado e&quot;),
+    @NamedQuery(name = &quot;Estado.findByIdEstado&quot;, query = &quot;SELECT e FROM Estado e WHERE e.idEstado = :idEstado&quot;),
+    @NamedQuery(name = &quot;Estado.findByNombre&quot;, query = &quot;SELECT e FROM Estado e WHERE e.nombre = :nombre&quot;),
+    @NamedQuery(name = &quot;Estado.findByFechaCreacion&quot;, query = &quot;SELECT e FROM Estado e WHERE e.fechaCreacion = :fechaCreacion&quot;),
+    @NamedQuery(name = &quot;Estado.findByObservaciones&quot;, query = &quot;SELECT e FROM Estado e WHERE e.observaciones = :observaciones&quot;)})
+public class Estado implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = &quot;id_estado&quot;, nullable = false)
+    private Integer idEstado;
+    @Column(name = &quot;nombre&quot;, length = 155)
+    private String nombre;
+    @Column(name = &quot;fecha_creacion&quot;)
+    @Temporal(TemporalType.DATE)
+    private Date fechaCreacion;
+    @Column(name = &quot;observaciones&quot;, length = 2147483647)
+    private String observaciones;
+    @OneToMany(mappedBy = &quot;idEstado&quot;)
+    private List&lt;ObjetoEstado&gt; objetoEstadoList;
+
+<span class="nc" id="L53">    public Estado() {</span>
+<span class="nc" id="L54">    }</span>
+
+<span class="nc" id="L56">    public Estado(Integer idEstado) {</span>
+<span class="nc" id="L57">        this.idEstado = idEstado;</span>
+<span class="nc" id="L58">    }</span>
+
+    public Integer getIdEstado() {
+<span class="nc" id="L61">        return idEstado;</span>
+    }
+
+    public void setIdEstado(Integer idEstado) {
+<span class="nc" id="L65">        this.idEstado = idEstado;</span>
+<span class="nc" id="L66">    }</span>
+
+    public String getNombre() {
+<span class="nc" id="L69">        return nombre;</span>
+    }
+
+    public void setNombre(String nombre) {
+<span class="nc" id="L73">        this.nombre = nombre;</span>
+<span class="nc" id="L74">    }</span>
+
+    public Date getFechaCreacion() {
+<span class="nc" id="L77">        return fechaCreacion;</span>
+    }
+
+    public void setFechaCreacion(Date fechaCreacion) {
+<span class="nc" id="L81">        this.fechaCreacion = fechaCreacion;</span>
+<span class="nc" id="L82">    }</span>
+
+    public String getObservaciones() {
+<span class="nc" id="L85">        return observaciones;</span>
+    }
+
+    public void setObservaciones(String observaciones) {
+<span class="nc" id="L89">        this.observaciones = observaciones;</span>
+<span class="nc" id="L90">    }</span>
+
+    public List&lt;ObjetoEstado&gt; getObjetoEstadoList() {
+<span class="nc" id="L93">        return objetoEstadoList;</span>
+    }
+
+    public void setObjetoEstadoList(List&lt;ObjetoEstado&gt; objetoEstadoList) {
+<span class="nc" id="L97">        this.objetoEstadoList = objetoEstadoList;</span>
+<span class="nc" id="L98">    }</span>
+
+    @Override
+    public int hashCode() {
+<span class="nc" id="L102">        int hash = 0;</span>
+<span class="nc bnc" id="L103" title="All 2 branches missed.">        hash += (idEstado != null ? idEstado.hashCode() : 0);</span>
+<span class="nc" id="L104">        return hash;</span>
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        // TODO: Warning - this method won't work in the case the id fields are not set
+<span class="nc bnc" id="L110" title="All 2 branches missed.">        if (!(object instanceof Estado)) {</span>
+<span class="nc" id="L111">            return false;</span>
+        }
+<span class="nc" id="L113">        Estado other = (Estado) object;</span>
+<span class="nc bnc" id="L114" title="All 8 branches missed.">        if ((this.idEstado == null &amp;&amp; other.idEstado != null) || (this.idEstado != null &amp;&amp; !this.idEstado.equals(other.idEstado))) {</span>
+<span class="nc" id="L115">            return false;</span>
+        }
+<span class="nc" id="L117">        return true;</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="nc" id="L122">        return &quot;com.mycompany.mapeobahes.entity.Estado[ idEstado=&quot; + idEstado + &quot; ]&quot;;</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
