@@ -42,7 +42,7 @@ public abstract class AbstractDataAcces<T> implements Serializable{
              try {
                  em = getEntityManager();
              } catch (Exception ex) {
-                 Logger.getLogger(getClass().getName()).log(Level.SEVERE, "EntityManager Nulo");
+                  
              }
              if(em!=null){
                  em.persist(nuevo);
@@ -60,7 +60,6 @@ public abstract class AbstractDataAcces<T> implements Serializable{
              try {
                  em = this.getEntityManager();
              } catch (Exception ex) {
-                  Logger.getLogger(getClass().getName()).log(Level.SEVERE, "EntityManager Nulo");
              }
              if(em !=null){
                  return (T) em.find(clase, id);
@@ -152,4 +151,23 @@ public abstract class AbstractDataAcces<T> implements Serializable{
      }
      
      
+     
+   public void actualizar(T datos)throws IllegalArgumentException, IllegalStateException{
+       if(datos!=null){
+           EntityManager em = null;
+             try {
+                 em=getEntityManager();
+             } catch (Exception e) {
+                 throw new IllegalStateException("No se puede crear el ambito de persistencia");
+             }
+             if(em!=null){
+                 em.merge(datos);
+                 return;
+             }else{
+                 throw new IllegalStateException("El entityManger es nulo");
+             }
+             
+       }
+       throw new IllegalArgumentException("El objeto a actualizar es nulo");
+   }
 }

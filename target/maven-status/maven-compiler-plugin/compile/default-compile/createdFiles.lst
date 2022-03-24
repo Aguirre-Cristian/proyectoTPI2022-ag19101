@@ -8,3 +8,4 @@ com/mycompany/baches/entity/resources/TipoObjeto.class
 com/mycompany/baches/control/EstadoBean.class
 com/mycompany/baches/boundary/JavaEE8Resource.class
 com/mycompany/baches/control/tipoObjetoBean.class
+com/mycompany/baches/control/BeanDePrueba.class

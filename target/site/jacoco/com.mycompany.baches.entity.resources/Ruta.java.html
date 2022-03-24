@@ -23,7 +23,7 @@ import javax.persistence.TemporalType;
  * @author crisagui
  */
 @Entity
-@Table(name = &quot;ruta&quot;, catalog = &quot;baches&quot;, schema = &quot;public&quot;)
+@Table(name = &quot;ruta&quot;, schema = &quot;public&quot;)
 @NamedQueries({
     @NamedQuery(name = &quot;Ruta.findAll&quot;, query = &quot;SELECT r FROM Ruta r&quot;),
     @NamedQuery(name = &quot;Ruta.findByIdRuta&quot;, query = &quot;SELECT r FROM Ruta r WHERE r.idRuta = :idRuta&quot;),

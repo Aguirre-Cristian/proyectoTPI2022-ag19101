@@ -25,7 +25,7 @@ import javax.persistence.TemporalType;
  * @author crisagui
  */
 @Entity
-@Table(name = &quot;tipo_objeto&quot;, catalog = &quot;baches&quot;, schema = &quot;public&quot;)
+@Table(name = &quot;tipo_objeto&quot;, schema = &quot;public&quot;)
 @NamedQueries({
     @NamedQuery(name = &quot;TipoObjeto.findAll&quot;, query = &quot;SELECT t FROM TipoObjeto t&quot;),
     @NamedQuery(name = &quot;TipoObjeto.findByIdTipoObjeto&quot;, query = &quot;SELECT t FROM TipoObjeto t WHERE t.idTipoObjeto = :idTipoObjeto&quot;),

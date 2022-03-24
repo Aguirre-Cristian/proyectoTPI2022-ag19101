@@ -5,12 +5,14 @@
 package com.mycompany.baches.control;
 
 import com.mycompany.baches.entity.resources.TipoObjeto;
+import java.util.ArrayList;
 import java.util.List;
 import javax.ejb.embeddable.EJBContainer;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.mockito.ArgumentMatchers;
@@ -42,6 +44,16 @@ public class tipoObjetoBeanTest {
         EntityManager mocKEN = Mockito.mock(EntityManager.class);
         cut.em=mocKEN;
         cut.crear(nuevo);
+        
+        tipoObjetoBean espia = Mockito.spy(tipoObjetoBean.class);
+        espia.em=mocKEN;
+        Mockito.when(espia.getEntityManager()).thenThrow(NullPointerException.class);
+        try {
+            espia.crear(nuevo);
+        } catch (Exception e) {
+        }
+        Mockito.verify(espia,Mockito.times(1)).getEntityManager();
+        
     }
     
     /**
@@ -123,6 +135,86 @@ public class tipoObjetoBeanTest {
     /**
      * Test of eliminar method, of class tipoObjetoBean.
      */
+     @Test
+    public void testFindRange() throws Exception {
+        System.out.println("findRange");
+         tipoObjetoBean cut = new tipoObjetoBean();
+
+        assertThrows(IllegalStateException.class, ()->{
+            cut.findRange(1, 2);
+        });
+        
+        EntityManager mockEM = Mockito.mock(EntityManager.class);
+        CriteriaBuilder mockCB = Mockito.mock(CriteriaBuilder.class);
+        CriteriaQuery mockCQ = Mockito.mock(CriteriaQuery.class);
+        Root mockR = Mockito.mock(Root.class);
+        TypedQuery mockTQ = Mockito.mock(TypedQuery.class);
+        
+        Mockito.when(mockEM.getCriteriaBuilder()).thenReturn(mockCB);
+        Mockito.when(mockCB.createQuery(Mockito.any())).thenReturn(mockCQ);
+        Mockito.when(mockCQ.from(Object.class)).thenReturn(mockR);
+        Mockito.when(mockEM.createQuery(mockCQ)).thenReturn(mockTQ);
+        Mockito.when(mockTQ.getResultList()).thenReturn(null);
+        
+        cut.em = mockEM;
+        cut.findRange(1, 2);
+
+        Mockito.when(mockTQ.getResultList()).thenReturn(new ArrayList());
+        cut.findRange(1, 2);
+        
+        tipoObjetoBean espia = Mockito.spy(tipoObjetoBean.class);
+        espia.em = mockEM;
+
+        Mockito.when(espia.getEntityManager()).thenThrow(NullPointerException.class);
+        try {
+            espia.findRange(1, 2);
+        } catch (Exception e) {
+        }
+        Mockito.verify(espia, Mockito.times(1)).getEntityManager();
+        //fail("The test case is a prototype.");
+    }
+    @Test
+    public void testFindAll() throws Exception {
+        System.out.println("findAll");
+         EntityManager mockEM = Mockito.mock(EntityManager.class);
+        CriteriaBuilder mockCB = Mockito.mock(CriteriaBuilder.class);
+        CriteriaQuery mockCQ = Mockito.mock(CriteriaQuery.class);
+        Root mockR = Mockito.mock(Root.class);
+        TypedQuery mockTQ = Mockito.mock(TypedQuery.class);
+
+        Mockito.when(mockEM.getCriteriaBuilder()).thenReturn(mockCB);
+        Mockito.when(mockCB.createQuery(Mockito.any())).thenReturn(mockCQ);
+        Mockito.when(mockCQ.from(Object.class)).thenReturn(mockR);
+        Mockito.when(mockEM.createQuery(mockCQ)).thenReturn(mockTQ);
+        Mockito.when(mockTQ.getResultList()).thenReturn(null);
+
+        tipoObjetoBean cut = new tipoObjetoBean();
+
+        assertThrows(IllegalStateException.class, () -> {
+            cut.findAll();
+        });
+
+        EstadoBean espia = Mockito.spy(EstadoBean.class);
+        espia.em = mockEM;
+
+        Mockito.when(espia.getEntityManager()).thenThrow(NullPointerException.class);
+        try {
+            espia.findAll();
+        } catch (Exception e) {
+        }
+
+        Mockito.verify(espia, Mockito.times(1)).getEntityManager();
+
+        cut.em = mockEM;
+        cut.findAll();
+
+        Mockito.when(mockTQ.getResultList()).thenReturn(new ArrayList());
+        cut.findAll();
+       
+        //fail("Esta prueba fallara");
+        
+    }
+    
     @Test
     public void testEliminar() throws Exception {
         System.out.println("eliminar");
@@ -145,6 +237,42 @@ public class tipoObjetoBeanTest {
         } catch (IllegalStateException ex) {
         }
         
+        tipoObjetoBean espia = Mockito.spy(tipoObjetoBean.class);
+        espia.em=mockEM;
+        Mockito.when(espia.getEntityManager()).thenThrow(NullPointerException.class);
+        try {
+            espia.eliminar(eliminado);
+        } catch (Exception e) {
+        }
+        Mockito.verify(espia,Mockito.times(1)).getEntityManager();
+    }
+    
+    @Test
+    public void testActualizar() throws Exception {
+        System.out.println("actualizar");
+        EntityManager mockEM = Mockito.mock(EntityManager.class);
+        
+        TipoObjeto nuevo=new TipoObjeto();
+        tipoObjetoBean cut=new tipoObjetoBean();
+        
+        assertThrows(IllegalArgumentException.class, ()->{
+            cut.actualizar(null);
+        });
+        assertThrows(IllegalStateException.class, ()->{
+            cut.actualizar(nuevo);
+        });
+
+        cut.em=mockEM;
+        cut.actualizar(nuevo);
+
+        tipoObjetoBean espia = Mockito.spy(tipoObjetoBean.class);
+        espia.em=mockEM;
+        Mockito.when(espia.getEntityManager()).thenThrow(NullPointerException.class);
+        try {
+            espia.actualizar(nuevo);
+        } catch (Exception e) {
+        }
+        Mockito.verify(espia,Mockito.times(1)).getEntityManager();
     }
     
 } 
