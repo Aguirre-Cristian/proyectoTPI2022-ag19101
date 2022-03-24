@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.baches.control.TipoObjetoIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.mycompany.baches.control.TipoObjetoIT
+com.mycompany.baches.control.TipoObjetoIT  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.RuntimeException: Arquillian initialization has already been attempted, but failed. See previous exceptions for cause
+Caused by: java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.jboss.arquillian.container.impl.ContainerCreationException: Could not create Container payara-embedded-all
+Caused by: java.lang.IllegalArgumentException: DeployableContainer must be specified
+

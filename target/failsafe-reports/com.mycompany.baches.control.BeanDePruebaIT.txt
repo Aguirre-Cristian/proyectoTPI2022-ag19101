@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.baches.control.BeanDePruebaIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.199 s <<< FAILURE! - in com.mycompany.baches.control.BeanDePruebaIT
+com.mycompany.baches.control.BeanDePruebaIT  Time elapsed: 1.199 s  <<< ERROR!
+java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.jboss.arquillian.container.impl.ContainerCreationException: Could not create Container payara-embedded-all
+Caused by: java.lang.IllegalArgumentException: DeployableContainer must be specified
+
