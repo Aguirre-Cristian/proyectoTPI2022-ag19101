@@ -19,156 +19,195 @@ import javax.persistence.criteria.Root;
  *
  * @author crisagui
  */
-public abstract class AbstractDataAcces&lt;T&gt; implements Serializable{
-    
+public abstract class AbstractDataAcces&lt;T&gt; implements Serializable {
+
     protected final Class clase;
 
 <span class="fc" id="L26">    public AbstractDataAcces(Class clase) {</span>
 <span class="fc" id="L27">        this.clase = clase;</span>
 <span class="fc" id="L28">    }</span>
 
-    public abstract EntityManager getEntityManager();
-    
- /**
- *se encarga de crear un nuevo registro en el repositorio
- * @param nuevo Entidad a persistir
- * @throws IllegalArgumentException
- * @throws IllegalStateException
- */
-    
-     public void crear(T nuevo) throws IllegalArgumentException, IllegalStateException{
-<span class="fc bfc" id="L40" title="All 2 branches covered.">         if(nuevo!=null){</span>
-<span class="fc" id="L41">             EntityManager em = null;</span>
-             try {
-<span class="fc" id="L43">                 em = getEntityManager();</span>
-<span class="fc" id="L44">             } catch (Exception ex) {</span>
-                  
-<span class="fc" id="L46">             }</span>
-<span class="fc bfc" id="L47" title="All 2 branches covered.">             if(em!=null){</span>
-<span class="fc" id="L48">                 em.persist(nuevo);</span>
-<span class="fc" id="L49">                 return;</span>
-             }else{
-<span class="fc" id="L51">                 throw new IllegalStateException();</span>
-             }
-         }
-<span class="fc" id="L54">         throw new IllegalArgumentException();</span>
-     }
-     
-     public T findById(final Object id) throws IllegalArgumentException, IllegalStateException{
-<span class="fc bfc" id="L58" title="All 2 branches covered.">         if(id!=null){</span>
-<span class="fc" id="L59">             EntityManager em = null;</span>
-             try {
-<span class="fc" id="L61">                 em = this.getEntityManager();</span>
-<span class="fc" id="L62">             } catch (Exception ex) {</span>
-<span class="fc" id="L63">             }</span>
-<span class="fc bfc" id="L64" title="All 2 branches covered.">             if(em !=null){</span>
-<span class="fc" id="L65">                 return (T) em.find(clase, id);</span>
-             }
-<span class="fc" id="L67">             throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
-         }
-<span class="fc" id="L69">         throw new IllegalArgumentException();</span>
-     }
-     
-     public List&lt;T&gt; findAll(){
-<span class="fc" id="L73">         EntityManager em = null;</span>
-        try {
-<span class="fc" id="L75">            em = this.getEntityManager();</span>
-<span class="fc" id="L76">        } catch (Exception ex) {</span>
-<span class="fc" id="L77">        }</span>
-<span class="fc bfc" id="L78" title="All 2 branches covered.">        if (em != null) {</span>
-<span class="fc" id="L79">            TypedQuery q = this.generarConsultaBase(em);</span>
-<span class="fc" id="L80">            List salida = q.getResultList();</span>
-<span class="fc bfc" id="L81" title="All 2 branches covered.">            if(salida!=null){</span>
-<span class="fc" id="L82">                return salida;</span>
+    abstract EntityManager getEntityManager();
+
+    /**
+     *
+     * @param nuevo
+     * @throws IllegalArgumentException
+     * @throws IllegalStateException
+     */
+    public void crear(T nuevo) throws IllegalArgumentException, IllegalStateException {
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (nuevo != null) {</span>
+<span class="fc" id="L40">            EntityManager em = null;</span>
+            try {
+<span class="fc" id="L42">                em = getEntityManager();</span>
+<span class="fc" id="L43">            } catch (Exception ex) {</span>
+<span class="fc" id="L44">                throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+<span class="fc" id="L45">            }</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">            if (em != null) {</span>
+<span class="fc" id="L47">                em.persist(nuevo);</span>
+<span class="fc" id="L48">                return;</span>
+            } else {
+<span class="fc" id="L50">                throw new IllegalStateException(&quot;No se puede almacenar el registro&quot;);</span>
             }
-<span class="fc" id="L84">            return Collections.EMPTY_LIST;</span>
         }
-<span class="fc" id="L86">        throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+<span class="fc" id="L53">        throw new IllegalArgumentException();</span>
     }
-     
-     public List&lt;T&gt; findRange(int first,int pageSize){
-<span class="fc" id="L90">         EntityManager em = null;</span>
-        try {
-<span class="fc" id="L92">            em = this.getEntityManager();</span>
-<span class="fc" id="L93">        } catch (Exception ex) {</span>
-<span class="fc" id="L94">        }</span>
-<span class="fc bfc" id="L95" title="All 2 branches covered.">        if (em != null) {</span>
-<span class="fc" id="L96">            TypedQuery q = this.generarConsultaBase(em);</span>
-<span class="fc" id="L97">            q.setFirstResult(first);</span>
-<span class="fc" id="L98">            q.setMaxResults(pageSize);</span>
-<span class="fc" id="L99">            List salida = q.getResultList();</span>
-<span class="fc bfc" id="L100" title="All 2 branches covered.">            if(salida!=null){</span>
-<span class="fc" id="L101">                return salida;</span>
+
+    /**
+     * Buscar por id
+     *
+     * @param id
+     * @return
+     * @throws IllegalArgumentException
+     * @throws IllegalStateException
+     */
+    public T findById(Object id) throws IllegalArgumentException, IllegalStateException {
+<span class="fc bfc" id="L65" title="All 2 branches covered.">        if (id != null) {</span>
+<span class="fc" id="L66">            EntityManager em = null;</span>
+            try {
+<span class="fc" id="L68">                em = this.getEntityManager();</span>
+<span class="fc" id="L69">            } catch (Exception ex) {</span>
+<span class="fc" id="L70">            }</span>
+<span class="fc bfc" id="L71" title="All 2 branches covered.">            if (em != null) {</span>
+<span class="fc" id="L72">                return (T) em.find(clase, id);</span>
             }
-<span class="fc" id="L103">            return Collections.EMPTY_LIST;</span>
+<span class="fc" id="L74">            throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
         }
-<span class="fc" id="L105">        throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+<span class="fc" id="L76">        throw new IllegalArgumentException();</span>
     }
-     
-     protected TypedQuery generarConsultaBase(EntityManager em){
-<span class="pc bpc" id="L109" title="1 of 2 branches missed.">         if(em!=null){</span>
-<span class="fc" id="L110">             CriteriaBuilder cb = em.getCriteriaBuilder();</span>
-<span class="fc" id="L111">             CriteriaQuery cq = cb.createQuery(clase);</span>
-<span class="fc" id="L112">             Root&lt;T&gt; raiz = cq.from(clase);</span>
-<span class="fc" id="L113">             cq.select(raiz);</span>
-<span class="fc" id="L114">             return em.createQuery(cq);</span>
-         }
-<span class="nc" id="L116">         throw new  IllegalArgumentException();</span>
-     }
-     
-     public long contar() throws IllegalStateException{
-<span class="fc" id="L120">         EntityManager em = null;</span>
+
+    /**
+     *
+     * @return
+     */
+    public List&lt;T&gt; findAll() {
+<span class="fc" id="L84">        EntityManager em = null;</span>
         try {
-<span class="fc" id="L122">            em = this.getEntityManager();</span>
-<span class="fc" id="L123">        } catch (Exception ex) {</span>
-<span class="fc" id="L124">        }</span>
-<span class="fc bfc" id="L125" title="All 2 branches covered.">        if (em != null) {</span>
-<span class="fc" id="L126">            CriteriaBuilder cb = em.getCriteriaBuilder();</span>
-<span class="fc" id="L127">            CriteriaQuery&lt;Long&gt; cq = cb.createQuery(Long.class);</span>
-<span class="fc" id="L128">            cq.select(cb.count(cq.from(clase)));</span>
-<span class="fc" id="L129">            return em.createQuery(cq).getSingleResult();</span>
+<span class="fc" id="L86">            em = this.getEntityManager();</span>
+<span class="fc" id="L87">        } catch (Exception ex) {</span>
+<span class="fc" id="L88">        }</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">        if (em != null) {</span>
+<span class="fc" id="L90">            TypedQuery q = this.generarConsultaBase(em);</span>
+<span class="fc" id="L91">            List salida = q.getResultList();</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">            if(salida!=null){</span>
+<span class="fc" id="L93">                return salida;</span>
+            }
+<span class="fc" id="L95">            return Collections.EMPTY_LIST;</span>
         }
-<span class="fc" id="L131">        throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
-     }
-     
-     public void eliminar(T registro)throws IllegalArgumentException,IllegalStateException{
-<span class="fc bfc" id="L135" title="All 2 branches covered.">         if(registro!=null){</span>
-<span class="fc" id="L136">             EntityManager em = null;</span>
-             try {
-<span class="fc" id="L138">                 em=getEntityManager();</span>
-<span class="fc" id="L139">             } catch (Exception e) {</span>
-<span class="fc" id="L140">             }</span>
-<span class="fc bfc" id="L141" title="All 2 branches covered.">             if(em!=null){</span>
-<span class="pc bpc" id="L142" title="1 of 2 branches missed.">                 if(!em.contains(registro)){</span>
-<span class="fc" id="L143">                     registro=em.merge(registro);</span>
-                 }
-<span class="fc" id="L145">                 em.remove(registro);</span>
-<span class="fc" id="L146">                 return;</span>
-             }
-<span class="fc" id="L148">             throw new IllegalStateException(&quot;El entityManger es nulo&quot;);</span>
-         }
-<span class="fc" id="L150">         throw new IllegalArgumentException(&quot;el objeto a eliminar es nulo&quot;);</span>
-     }
-     
-     
-     
-   public void actualizar(T datos)throws IllegalArgumentException, IllegalStateException{
-<span class="fc bfc" id="L156" title="All 2 branches covered.">       if(datos!=null){</span>
-<span class="fc" id="L157">           EntityManager em = null;</span>
-             try {
-<span class="fc" id="L159">                 em=getEntityManager();</span>
-<span class="fc" id="L160">             } catch (Exception e) {</span>
-<span class="fc" id="L161">                 throw new IllegalStateException(&quot;No se puede crear el ambito de persistencia&quot;);</span>
-<span class="fc" id="L162">             }</span>
-<span class="fc bfc" id="L163" title="All 2 branches covered.">             if(em!=null){</span>
-<span class="fc" id="L164">                 em.merge(datos);</span>
-<span class="fc" id="L165">                 return;</span>
-             }else{
-<span class="fc" id="L167">                 throw new IllegalStateException(&quot;El entityManger es nulo&quot;);</span>
-             }
-             
-       }
-<span class="fc" id="L171">       throw new IllegalArgumentException(&quot;El objeto a actualizar es nulo&quot;);</span>
-   }
+<span class="fc" id="L97">        throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+    }
+
+    /**
+     *
+     * @param first
+     * @param pageSize
+     * @return
+     */
+    public List&lt;T&gt; findRange(int first, int pageSize) {
+<span class="fc" id="L107">        EntityManager em = null;</span>
+        try {
+<span class="fc" id="L109">            em = this.getEntityManager();</span>
+<span class="fc" id="L110">        } catch (Exception ex) {</span>
+
+<span class="fc" id="L112">        }</span>
+<span class="fc bfc" id="L113" title="All 2 branches covered.">        if (em != null) {</span>
+<span class="fc" id="L114">            TypedQuery tq = this.generarConsultaBase(em);</span>
+<span class="fc" id="L115">            tq.setFirstResult(first);</span>
+<span class="fc" id="L116">            tq.setMaxResults(pageSize);</span>
+<span class="fc" id="L117">            List salida = tq.getResultList();</span>
+<span class="fc bfc" id="L118" title="All 2 branches covered.">            if (salida != null) {</span>
+<span class="fc" id="L119">                return salida;</span>
+            }
+<span class="fc" id="L121">            return Collections.EMPTY_LIST;</span>
+        }
+<span class="fc" id="L123">        throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+    }
+
+    protected TypedQuery generarConsultaBase(EntityManager em) {
+<span class="pc bpc" id="L127" title="1 of 2 branches missed.">        if (em != null) {</span>
+<span class="fc" id="L128">            CriteriaBuilder cb = em.getCriteriaBuilder();</span>
+<span class="fc" id="L129">            CriteriaQuery cq = cb.createQuery(clase);</span>
+<span class="fc" id="L130">            Root&lt;T&gt; raiz = cq.from(clase);</span>
+<span class="fc" id="L131">            cq.select(raiz);</span>
+<span class="fc" id="L132">            return em.createQuery(cq);</span>
+        }
+<span class="nc" id="L134">        throw new IllegalArgumentException();</span>
+    }
+
+    /**
+     *
+     * @return @throws IllegalStateException
+     */
+    public Long contar() throws IllegalStateException {
+<span class="fc" id="L142">        EntityManager em = null;</span>
+        try {
+<span class="fc" id="L144">            em = this.getEntityManager();</span>
+<span class="fc" id="L145">        } catch (Exception ex) {</span>
+<span class="fc" id="L146">        }</span>
+
+<span class="fc bfc" id="L148" title="All 2 branches covered.">        if (em != null) {</span>
+<span class="fc" id="L149">            CriteriaBuilder cb = em.getCriteriaBuilder();</span>
+<span class="fc" id="L150">            CriteriaQuery&lt;Long&gt; cq = cb.createQuery(Long.class);</span>
+<span class="fc" id="L151">            cq.select(cb.count(cq.from(clase)));</span>
+<span class="fc" id="L152">            return em.createQuery(cq).getSingleResult();</span>
+        }
+<span class="fc" id="L154">        throw new IllegalStateException();</span>
+
+    }
+
+    /**
+     * Eliminar por id
+     *
+     * @param id
+     * @throws IllegalStateException
+     * @throws IllegalArgumentException
+     */
+    public void eliminar(T id) throws IllegalStateException, IllegalArgumentException {
+<span class="fc bfc" id="L166" title="All 2 branches covered.">        if (id != null) {</span>
+<span class="fc" id="L167">            EntityManager em = null;</span>
+            try {
+<span class="fc" id="L169">                em = this.getEntityManager();</span>
+<span class="fc" id="L170">            } catch (Exception ex) {</span>
+<span class="fc" id="L171">            }</span>
+<span class="fc bfc" id="L172" title="All 2 branches covered.">            if (em != null) {</span>
+
+<span class="pc bpc" id="L174" title="1 of 2 branches missed.">                if (!em.contains(id)) {</span>
+<span class="fc" id="L175">                    id = em.merge(id);</span>
+                }
+<span class="fc" id="L177">                em.remove(id);</span>
+<span class="fc" id="L178">                return;</span>
+            }
+
+<span class="fc" id="L181">            throw new IllegalStateException(&quot;El entity manager era nulo&quot;);</span>
+
+        }
+<span class="fc" id="L184">        throw new IllegalArgumentException(&quot;El objeto a eliminar es nulo&quot;);</span>
+
+    }
+
+    /**
+     *
+     * @param nuevo
+     * @throws IllegalArgumentException
+     * @throws IllegalStateException
+     */
+    public void actualizar(T nuevo) throws IllegalArgumentException, IllegalStateException {
+<span class="fc bfc" id="L195" title="All 2 branches covered.">        if (nuevo != null) {</span>
+<span class="fc" id="L196">            EntityManager em = null;</span>
+            try {
+<span class="fc" id="L198">                em = this.getEntityManager();</span>
+<span class="fc" id="L199">            } catch (Exception e) {</span>
+<span class="fc" id="L200">                throw new IllegalStateException(&quot;No se puede obtener un ambito de persistencia&quot;);</span>
+<span class="fc" id="L201">            }</span>
+<span class="fc bfc" id="L202" title="All 2 branches covered.">            if (em != null) {</span>
+<span class="fc" id="L203">                em.merge(nuevo);</span>
+<span class="fc" id="L204">                return;</span>
+            } else {
+<span class="fc" id="L206">                throw new IllegalStateException(&quot;No se pudo modificar el registro&quot;);</span>
+            }
+        }
+<span class="fc" id="L209">        throw new IllegalArgumentException();</span>
+
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

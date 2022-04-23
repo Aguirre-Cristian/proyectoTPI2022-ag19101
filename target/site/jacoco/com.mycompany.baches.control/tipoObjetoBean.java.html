@@ -18,11 +18,11 @@ import javax.persistence.PersistenceContext;
 @Stateless
 @LocalBean
 public class tipoObjetoBean extends AbstractDataAcces&lt;TipoObjeto&gt; implements Serializable{
-    @PersistenceContext(unitName = &quot;Baches-PU&quot;)
+    @PersistenceContext(unitName =&quot;Baches_PU&quot;)
     EntityManager em;
 
     @Override
-    public EntityManager getEntityManager() {
+    EntityManager getEntityManager() {
 <span class="fc" id="L26">        return em;</span>
     }
 
@@ -30,5 +30,13 @@ public class tipoObjetoBean extends AbstractDataAcces&lt;TipoObjeto&gt; implemen
 <span class="fc" id="L30">        super(TipoObjeto.class);</span>
 <span class="fc" id="L31">    }</span>
     
+    @Override
+    public Long contar() throws IllegalStateException{
+        try {
+<span class="fc" id="L36">            Thread.sleep(2000);</span>
+<span class="nc" id="L37">        } catch (Exception e) {</span>
+<span class="fc" id="L38">        }</span>
+<span class="fc" id="L39">        return super.contar();</span>
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

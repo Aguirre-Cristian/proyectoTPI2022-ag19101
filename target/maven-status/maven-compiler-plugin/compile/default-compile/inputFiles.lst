@@ -1,11 +1,15 @@
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/EstadoBean.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/ObjetoEstado.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/JakartaEE8Resource.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Ruta.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Objeto.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/tipoObjetoBean.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/ObjetoBean.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/JakartaRestConfiguration.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Estado.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/boundary/JavaEE8Resource.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/TipoObjeto.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/tipoObjetoResource.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/BeanDePrueba.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/boundary/JAXRSConfiguration.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/AbstractDataAcces.java
-/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Objeto.java
-/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/tipoObjetoBean.java

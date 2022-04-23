@@ -29,6 +29,8 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name = "Objeto.findAll", query = "SELECT o FROM Objeto o"),
     @NamedQuery(name = "Objeto.findByIdObjeto", query = "SELECT o FROM Objeto o WHERE o.idObjeto = :idObjeto"),
+    @NamedQuery(name = "Objeto.findByTipoObeto", query = "SELECT o FROM Objeto o WHERE o.idTipoObjeto.idTipoObjeto = :idTipoObjeto ORDER BY o.nombre ASC"),
+    @NamedQuery(name = "Objeto.countByTipoObeto", query = "SELECT COUNT (o.idObjeto) FROM Objeto o JOIN o.idTipoObjeto t WHERE t.idTipoObjeto= :idTipoObjeto"),
     @NamedQuery(name = "Objeto.findByLongitud", query = "SELECT o FROM Objeto o WHERE o.longitud = :longitud"),
     @NamedQuery(name = "Objeto.findByLatitud", query = "SELECT o FROM Objeto o WHERE o.latitud = :latitud"),
     @NamedQuery(name = "Objeto.findByNombre", query = "SELECT o FROM Objeto o WHERE o.nombre = :nombre"),

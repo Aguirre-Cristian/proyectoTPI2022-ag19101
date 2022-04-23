@@ -18,11 +18,11 @@ import javax.persistence.PersistenceContext;
 @Stateless
 @LocalBean
 public class EstadoBean extends AbstractDataAcces&lt;Estado&gt; implements Serializable{
-    @PersistenceContext(unitName = &quot;Baches-PU&quot;)
+    @PersistenceContext(unitName = &quot;Baches_PU&quot;)
     EntityManager em;
 
     @Override
-    public EntityManager getEntityManager() {
+    EntityManager getEntityManager() {
 <span class="fc" id="L26">        return em;</span>
     }
 

@@ -18,11 +18,11 @@ import javax.persistence.PersistenceContext;
 @Stateless
 @LocalBean
 public class EstadoBean extends AbstractDataAcces<Estado> implements Serializable{
-    @PersistenceContext(unitName = "Baches-PU")
+    @PersistenceContext(unitName = "Baches_PU")
     EntityManager em;
 
     @Override
-    public EntityManager getEntityManager() {
+    EntityManager getEntityManager() {
         return em;
     }
 
