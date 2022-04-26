@@ -10,9 +10,11 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
+import javax.ws.rs.DefaultValue;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.Response;
 
 /**
@@ -23,12 +25,10 @@ import javax.ws.rs.core.Response;
 @Path(&quot;tipoobjeto&quot;)
 @RequestScoped
 
-<span class="nc" id="L26">public class tipoObjetoResource {</span>
+<span class="nc" id="L28">public class tipoObjetoResource {</span>
     @Inject
     tipoObjetoBean toBean;
-
-    @GET
-    @Produces({&quot;application/json; charset=UTF-8&quot;})
+    
     public Response findAll() {
 <span class="nc" id="L33">        List&lt;TipoObjeto&gt; registros = toBean.findAll();</span>
 <span class="nc" id="L34">        Long total = toBean.contar();</span>
@@ -37,9 +37,23 @@ import javax.ws.rs.core.Response;
 <span class="nc" id="L37">                .build();</span>
     }
     @GET
+    @Produces({&quot;application/json; charset=UTF-8&quot;})
+    public Response findRange(
+            @QueryParam(value = &quot;first&quot;)
+            @DefaultValue(value = &quot;0&quot;) int first,
+            @QueryParam(value = &quot;pagesize&quot;)
+            @DefaultValue(value = &quot;50&quot;) int pageSize){
+<span class="nc" id="L46">        List&lt;TipoObjeto&gt; registros = toBean.findRange(first, pageSize);</span>
+<span class="nc" id="L47">        Long total = toBean.contar();</span>
+<span class="nc" id="L48">        return Response.ok(registros)</span>
+<span class="nc" id="L49">            .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L50">                .build();</span>
+    }
+    
+    @GET
     @Path(&quot;contar&quot;)
     public CompletableFuture&lt;Long&gt; contar(){
-<span class="nc" id="L42">        return CompletableFuture.supplyAsync(toBean::contar); </span>
+<span class="nc" id="L56">        return CompletableFuture.supplyAsync(toBean::contar); </span>
     } 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
