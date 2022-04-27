@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.mycompany.baches.control.BeanDePruebaTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.mycompany.baches.control.BeanDePruebaTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.14+9-post-Debian-1deb11u1"/>
@@ -17,7 +17,6 @@
     <property name="user.dir" value="/home/crisagui/NetBeansProjects/Baches"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.14+9-post-Debian-1deb11u1"/>
-    <property name="netbeans.deploy" value="true"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -41,13 +40,11 @@
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
-    <property name="exec.appArgs" value=""/>
     <property name="user.name" value="crisagui"/>
-    <property name="exec.vmArgs" value=""/>
     <property name="java.class.path" value="/home/crisagui/netbeans-12.6/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.deploy=true -Dnetbeans.deploy.clientUrlPart= -Dexec.vmArgs= -Dexec.appArgs= -Dmaven.ext.class.path=/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,8 +59,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-11"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="netbeans.deploy.clientUrlPart" value=""/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.baches.control.BeanDePruebaTest" name="com.mycompany.baches.control.BeanDePruebaTest.testGetNombreUsuario" time="0.011"/>
+  <testcase classname="com.mycompany.baches.control.BeanDePruebaTest" name="com.mycompany.baches.control.BeanDePruebaTest.testGetNombreUsuario" time="0"/>
 </testsuite>

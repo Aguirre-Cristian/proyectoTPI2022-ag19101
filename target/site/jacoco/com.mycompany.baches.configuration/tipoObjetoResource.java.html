@@ -10,9 +10,13 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.DefaultValue;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.Response;
@@ -25,16 +29,16 @@ import javax.ws.rs.core.Response;
 @Path(&quot;tipoobjeto&quot;)
 @RequestScoped
 
-<span class="nc" id="L28">public class tipoObjetoResource {</span>
+<span class="nc" id="L32">public class tipoObjetoResource {</span>
     @Inject
     tipoObjetoBean toBean;
     
     public Response findAll() {
-<span class="nc" id="L33">        List&lt;TipoObjeto&gt; registros = toBean.findAll();</span>
-<span class="nc" id="L34">        Long total = toBean.contar();</span>
-<span class="nc" id="L35">        return Response.ok(registros)</span>
-<span class="nc" id="L36">                .header(&quot;Total-Registros&quot;, total)</span>
-<span class="nc" id="L37">                .build();</span>
+<span class="nc" id="L37">        List&lt;TipoObjeto&gt; registros = toBean.findAll();</span>
+<span class="nc" id="L38">        Long total = toBean.contar();</span>
+<span class="nc" id="L39">        return Response.ok(registros)</span>
+<span class="nc" id="L40">                .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L41">                .build();</span>
     }
     @GET
     @Produces({&quot;application/json; charset=UTF-8&quot;})
@@ -43,17 +47,45 @@ import javax.ws.rs.core.Response;
             @DefaultValue(value = &quot;0&quot;) int first,
             @QueryParam(value = &quot;pagesize&quot;)
             @DefaultValue(value = &quot;50&quot;) int pageSize){
-<span class="nc" id="L46">        List&lt;TipoObjeto&gt; registros = toBean.findRange(first, pageSize);</span>
-<span class="nc" id="L47">        Long total = toBean.contar();</span>
-<span class="nc" id="L48">        return Response.ok(registros)</span>
-<span class="nc" id="L49">            .header(&quot;Total-Registros&quot;, total)</span>
-<span class="nc" id="L50">                .build();</span>
+<span class="nc" id="L50">        List&lt;TipoObjeto&gt; registros = toBean.findRange(first, pageSize);</span>
+<span class="nc" id="L51">        Long total = toBean.contar();</span>
+<span class="nc" id="L52">        return Response.ok(registros)</span>
+<span class="nc" id="L53">            .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L54">                .build();</span>
     }
     
     @GET
     @Path(&quot;contar&quot;)
     public CompletableFuture&lt;Long&gt; contar(){
-<span class="nc" id="L56">        return CompletableFuture.supplyAsync(toBean::contar); </span>
+<span class="nc" id="L60">        return CompletableFuture.supplyAsync(toBean::contar); </span>
     } 
+    
+    @POST
+    public Response Crear(TipoObjeto nuevo){
+<span class="nc" id="L65">        toBean.crear(nuevo);</span>
+<span class="nc" id="L66">        return Response.ok(nuevo)</span>
+<span class="nc" id="L67">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
+<span class="nc" id="L68">                .build();</span>
+    }
+    
+    @PUT
+    public Response Modificar(TipoObjeto modificar){
+<span class="nc" id="L73">        toBean.actualizar(modificar);</span>
+<span class="nc" id="L74">        return Response.ok(modificar)</span>
+<span class="nc" id="L75">                .header(&quot;Modificado&quot;, modificar)</span>
+<span class="nc" id="L76">                .build();</span>
+    }
+    
+    @DELETE
+    @Path(&quot;{idTipoObjeto}&quot;)
+    public Response Eliminar(@PathParam(&quot;idTipoObjeto&quot;) int id){
+<span class="nc" id="L82">        TipoObjeto registro = toBean.findById(id);</span>
+<span class="nc" id="L83">        toBean.eliminar(registro);</span>
+<span class="nc" id="L84">        return Response.ok(registro)</span>
+<span class="nc" id="L85">            .header(&quot;ID-eliminado&quot;,id)</span>
+<span class="nc" id="L86">                    .build();</span>
+    }
+    
+    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

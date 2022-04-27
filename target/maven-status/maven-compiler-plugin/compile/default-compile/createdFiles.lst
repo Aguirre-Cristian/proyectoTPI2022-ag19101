@@ -8,6 +8,7 @@ com/mycompany/baches/boundary/JavaEE8Resource.class
 com/mycompany/baches/entity/resources/Estado.class
 com/mycompany/baches/boundary/JAXRSConfiguration.class
 com/mycompany/baches/entity/resources/Objeto.class
+com/mycompany/baches/configuration/CorsFilter.class
 com/mycompany/baches/entity/resources/ObjetoEstado.class
 com/mycompany/baches/entity/resources/Ruta.class
 com/mycompany/baches/control/AbstractDataAcces.class
