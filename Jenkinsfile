@@ -8,7 +8,8 @@ pipeline {
         }
         stage('Test') {
             steps{
-                sh "mvn clean compile test"
+                sh "mvn clean compile verify"
+
             }
         }
         stage('Deploy') {
