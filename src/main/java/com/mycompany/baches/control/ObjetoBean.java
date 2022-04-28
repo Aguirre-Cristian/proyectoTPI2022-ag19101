@@ -54,4 +54,10 @@ public class ObjetoBean extends AbstractDataAcces<Objeto> implements Serializabl
         }
         return 0;
     }
+    
+    public List<Objeto> buscarPorNombre(String nombre){
+        Query q = em.createNamedQuery("Objeto.findByNombre");
+        q.setParameter("nombre", nombre);
+        return q.getResultList();
+    }
 }
