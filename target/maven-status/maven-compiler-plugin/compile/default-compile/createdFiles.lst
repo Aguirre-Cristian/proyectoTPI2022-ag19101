@@ -1,4 +1,5 @@
 com/mycompany/baches/configuration/JakartaEE8Resource.class
+com/mycompany/baches/configuration/ObjetoResource.class
 com/mycompany/baches/configuration/tipoObjetoResource.class
 com/mycompany/baches/control/ObjetoBean.class
 com/mycompany/baches/entity/resources/TipoObjeto.class

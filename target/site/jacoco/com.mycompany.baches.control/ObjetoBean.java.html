@@ -23,36 +23,40 @@ import javax.persistence.Query;
 
 public class ObjetoBean extends AbstractDataAcces&lt;Objeto&gt; implements Serializable {
 
-    @PersistenceContext(unitName =&quot;Baches_PU&quot;)
+    @PersistenceContext(unitName = &quot;Baches_PU&quot;)
     EntityManager em;
-
+    
     @Override
     EntityManager getEntityManager() {
-<span class="nc" id="L31">        return em;</span>
+<span class="fc" id="L31">        return em;</span>
     }
-
     public ObjetoBean() {
-<span class="nc" id="L35">        super(Objeto.class);</span>
-<span class="nc" id="L36">    }</span>
-    //prepared statement, sql injection NamedQuery
-    public List&lt;Objeto&gt; findByIdTipoObjeto(final Integer idTipoObjeto, int first, int pageSize){
-<span class="nc bnc" id="L39" title="All 4 branches missed.">        if(this.em != null &amp;&amp; idTipoObjeto !=null){</span>
-<span class="nc" id="L40">            Query q = em.createNamedQuery(&quot;Objeto.findByTipoObjeto&quot;);</span>
-<span class="nc" id="L41">            q.setParameter(&quot;idTipoObjeto&quot;, idTipoObjeto);</span>
+<span class="fc" id="L34">        super(Objeto.class);</span>
+<span class="fc" id="L35">    }</span>
+    
+    
+    public List&lt;Objeto&gt; findByIdTipoObjeto(final Integer idObjeto, int first, int pageSize){
+<span class="nc bnc" id="L39" title="All 4 branches missed.">        if (this.em !=null &amp;&amp; idObjeto != null) {</span>
+<span class="nc" id="L40">            Query q = em.createNamedQuery(&quot;Objeto.findByTipoObeto&quot;);</span>
+<span class="nc" id="L41">            q.setParameter(&quot;idObjeto&quot;, idObjeto);</span>
 <span class="nc" id="L42">            q.setFirstResult(first);</span>
 <span class="nc" id="L43">            q.setMaxResults(pageSize);</span>
 <span class="nc" id="L44">            return q.getResultList();</span>
         }
-<span class="nc" id="L46">        return Collections.EMPTY_LIST;</span>
+        
+<span class="nc" id="L47">        return Collections.EMPTY_LIST;</span>
     }
     
     public int countByIdTipoObjeto(final Integer idTipoObjeto){
-<span class="nc bnc" id="L50" title="All 4 branches missed.">        if(this.em !=null &amp;&amp; idTipoObjeto !=null){</span>
-<span class="nc" id="L51">            Query q = em.createNamedQuery(&quot;Objeto.countByTipoObjeto&quot;);</span>
-<span class="nc" id="L52">            q.setParameter(&quot;idTipoObjeto&quot;, idTipoObjeto);</span>
-<span class="nc" id="L53">            return ((Long) q.getSingleResult()).intValue();</span>
+<span class="nc bnc" id="L51" title="All 4 branches missed.">        if (this.em !=null &amp;&amp; idTipoObjeto != null) {</span>
+<span class="nc" id="L52">            Query q = em.createNamedQuery(&quot;Objeto.countByTipoObeto&quot;);</span>
+<span class="nc" id="L53">            q.setParameter(&quot;idTipoObjeto&quot;, idTipoObjeto);</span>
+
+<span class="nc" id="L55">            return ((Long)q.getSingleResult()).intValue();</span>
         }
-<span class="nc" id="L55">        return 0;</span>
+        
+<span class="nc" id="L58">        return 0;</span>
     }
+    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

@@ -85,6 +85,4 @@ public class tipoObjetoResource {
             .header("ID-eliminado",id)
                     .build();
     }
-    
-    
 }

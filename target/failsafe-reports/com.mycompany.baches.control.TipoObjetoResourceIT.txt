@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.baches.control.TipoObjetoResourceIT
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.446 s - in com.mycompany.baches.control.TipoObjetoResourceIT
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.07 s - in com.mycompany.baches.control.TipoObjetoResourceIT

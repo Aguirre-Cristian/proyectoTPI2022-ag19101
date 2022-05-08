@@ -23,41 +23,39 @@ import javax.persistence.Query;
 
 public class ObjetoBean extends AbstractDataAcces<Objeto> implements Serializable {
 
-    @PersistenceContext(unitName ="Baches_PU")
+    @PersistenceContext(unitName = "Baches_PU")
     EntityManager em;
-
+    
     @Override
     EntityManager getEntityManager() {
         return em;
     }
-
     public ObjetoBean() {
         super(Objeto.class);
     }
-    //prepared statement, sql injection NamedQuery
-    public List<Objeto> findByIdTipoObjeto(final Integer idTipoObjeto, int first, int pageSize){
-        if(this.em != null && idTipoObjeto !=null){
-            Query q = em.createNamedQuery("Objeto.findByTipoObjeto");
-            q.setParameter("idTipoObjeto", idTipoObjeto);
+    
+    
+    public List<Objeto> findByIdTipoObjeto(final Integer idObjeto, int first, int pageSize){
+        if (this.em !=null && idObjeto != null) {
+            Query q = em.createNamedQuery("Objeto.findByTipoObeto");
+            q.setParameter("idObjeto", idObjeto);
             q.setFirstResult(first);
             q.setMaxResults(pageSize);
             return q.getResultList();
         }
+        
         return Collections.EMPTY_LIST;
     }
     
     public int countByIdTipoObjeto(final Integer idTipoObjeto){
-        if(this.em !=null && idTipoObjeto !=null){
-            Query q = em.createNamedQuery("Objeto.countByTipoObjeto");
+        if (this.em !=null && idTipoObjeto != null) {
+            Query q = em.createNamedQuery("Objeto.countByTipoObeto");
             q.setParameter("idTipoObjeto", idTipoObjeto);
-            return ((Long) q.getSingleResult()).intValue();
+
+            return ((Long)q.getSingleResult()).intValue();
         }
+        
         return 0;
     }
     
-    public List<Objeto> buscarPorNombre(String nombre){
-        Query q = em.createNamedQuery("Objeto.findByNombre");
-        q.setParameter("nombre", nombre);
-        return q.getResultList();
-    }
 }
