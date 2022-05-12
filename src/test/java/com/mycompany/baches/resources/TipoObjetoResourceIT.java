@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.baches.control;
+package com.mycompany.baches.resources;
 
 import java.io.StringReader;
 import java.net.URL;
@@ -27,6 +27,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import com.mycompany.baches.configuration.JakartaRestConfiguration;
 import com.mycompany.baches.configuration.tipoObjetoResource;
+import com.mycompany.baches.control.AbstractDataAcces;
+import com.mycompany.baches.control.tipoObjetoBean;
 import com.mycompany.baches.entity.resources.TipoObjeto;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;

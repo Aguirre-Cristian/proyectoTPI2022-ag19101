@@ -14,4 +14,3 @@ com/mycompany/baches/entity/resources/ObjetoEstado.class
 com/mycompany/baches/entity/resources/Ruta.class
 com/mycompany/baches/control/AbstractDataAcces.class
 com/mycompany/baches/control/tipoObjetoBean.class
-com/mycompany/baches/control/BeanDePrueba.class

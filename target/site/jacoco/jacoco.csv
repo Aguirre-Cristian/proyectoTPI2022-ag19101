@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,ObjetoEstado,94,3,12,0,31,2,22,1,16,1
-Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,Estado,87,3,12,0,28,2,20,1,14,1
+Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,ObjetoEstado,45,52,10,2,15,18,10,13,5,12
+Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,Estado,41,49,10,2,13,17,9,12,4,11
 Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,Objeto,49,55,10,2,17,19,11,14,6,13
 Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,Ruta,80,3,12,0,25,2,18,1,12,1
 Baches-1.0-SNAPSHOT,com.mycompany.baches.entity.resources,TipoObjeto,20,63,6,6,7,20,7,12,2,11
@@ -9,10 +9,14 @@ Baches-1.0-SNAPSHOT,com.mycompany.baches.boundary,JAXRSConfiguration,3,0,0,0,1,0
 Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,ObjetoResource,25,59,0,0,6,19,2,5,2,5
 Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,JakartaRestConfiguration,0,3,0,0,0,1,0,1,0,1
 Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,CorsFilter,24,0,0,0,6,0,2,0,2,0
+Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,ObjetoEstadoResource,25,59,0,0,6,19,2,5,2,5
+Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,EstadoResource,25,59,0,0,6,19,2,5,2,5
 Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,JakartaEE8Resource,7,0,0,0,4,0,2,0,2,0
+Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,RutaResource,84,0,0,0,25,0,7,0,7,0
 Baches-1.0-SNAPSHOT,com.mycompany.baches.configuration,tipoObjetoResource,23,61,0,0,6,19,2,5,2,5
+Baches-1.0-SNAPSHOT,com.mycompany.baches.control,ObjetoEstadoBean,0,7,0,0,0,3,0,2,0,2
 Baches-1.0-SNAPSHOT,com.mycompany.baches.control,AbstractDataAcces,4,244,2,28,1,86,2,22,0,9
 Baches-1.0-SNAPSHOT,com.mycompany.baches.control,ObjetoBean,50,7,8,0,12,3,6,2,2,2
-Baches-1.0-SNAPSHOT,com.mycompany.baches.control,BeanDePrueba,0,5,0,0,0,2,0,2,0,2
 Baches-1.0-SNAPSHOT,com.mycompany.baches.control,tipoObjetoBean,1,13,0,0,1,6,0,3,0,3
+Baches-1.0-SNAPSHOT,com.mycompany.baches.control,RutaBean,7,0,0,0,3,0,2,0,2,0
 Baches-1.0-SNAPSHOT,com.mycompany.baches.control,EstadoBean,0,7,0,0,0,3,0,2,0,2

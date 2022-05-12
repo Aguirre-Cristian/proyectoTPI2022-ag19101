@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.mycompany.baches.resources.RutaResourceIT" time="6.203" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="javax.xml.accessExternalSchema" value="all"/>
+    <property name="env.KDE_SESSION_VERSION" value="5"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="jdk.tls.rejectClientInitiatedRenegotiation" value="true"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="jdk.corba.allowOutputStreamSubclass" value="true"/>
+    <property name="env.GTK_RC_FILES" value="/etc/gtk/gtkrc:/home/crisagui/.gtkrc:/home/crisagui/.config/gtkrc"/>
+    <property name="arquillian.launch" value="payara-embedded-all"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="javax.net.ssl.trustStorePassword" value="changeit"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="com.sun.aas.installRoot" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-11"/>
+    <property name="com.sun.aas.productRoot" value="/tmp"/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="org.omg.CORBA.ORBSingletonClass" value="com.sun.corba.ee.impl.orb.ORBSingleton"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter6300054079245067502.jar /home/crisagui/NetBeansProjects/Baches/target/surefire 2022-05-08T20-30-54_992-jvmRun1 surefire5534081983766306136tmp surefire_013569592250857081702tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="env.SSH_AGENT_PID" value="1286"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="gosh.args" value="--nointeractive"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="env.J2D_PIXMAPS" value="shared"/>
+    <property name="com.sun.enterprise.security.httpsOutboundKeyAlias" value="s1as"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="org.jboss.weld.serialization.beanIdentifierIndexOptimization" value="false"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="javax.rmi.CORBA.StubClass" value="com.sun.corba.ee.impl.javax.rmi.CORBA.StubDelegateImpl"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="osgi.shell.telnet.ip" value="127.0.0.1"/>
+    <property name="jdk.attach.allowAttachSelf" value="true"/>
+    <property name="javax.rmi.CORBA.UtilClass" value="com.sun.corba.ee.impl.javax.rmi.CORBA.Util"/>
+    <property name="jdbc.drivers" value="org.h2.Driver"/>
+    <property name="javax.net.ssl.trustStore" value="/tmp/gfembed835867623391004339tmp/config/cacerts.jks"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+10-post-Debian-1deb11u1"/>
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session1"/>
+    <property name="user.name" value="crisagui"/>
+    <property name="env.PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"/>
+    <property name="env.NB_EXEC_MAVEN_PROCESS_UUID" value="3f06b37f-59d0-4f26-89dc-2479ef15bd6a"/>
+    <property name="felix.fileinstall.poll" value="5000"/>
+    <property name="java.security.policy" value="/tmp/gfembed835867623391004339tmp/config/server.policy"/>
+    <property name="env.LOGNAME" value="crisagui"/>
+    <property name="env.XDG_SEAT" value="seat0"/>
+    <property name="com.sun.enterprise.config.config_environment_factory_class" value="com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory"/>
+    <property name="felix.fileinstall.log.level" value="2"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="com.sun.aas.imqLib" value="/tmp/gfembed835867623391004339tmp/lib/install/applications/jmsra"/>
+    <property name="env.XDG_VTNR" value="7"/>
+    <property name="env._" value="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"/>
+    <property name="env.XDG_SESSION_DESKTOP" value="KDE"/>
+    <property name="env.SHLVL" value="0"/>
+    <property name="com.sun.enterprise.jaccprovider.property.repository" value="/tmp/gfembed835867623391004339tmp/generated/policy"/>
+    <property name="localRepository" value="/home/crisagui/.m2/repository"/>
+    <property name="env.XCURSOR_THEME" value="breeze_cursors"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="env.XCURSOR_SIZE" value="24"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-CP13LZLTLvK8/agent.1237"/>
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="com.sun.aas.instanceRoot" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="env.KDE_FULL_SESSION" value="true"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="env.XDG_SESSION_TYPE" value="x11"/>
+    <property name="ANTLR_USE_DIRECT_CLASS_LOADING" value="true"/>
+    <property name="java.rmi.server.randomIDs" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="env.XDG_SESSION_CLASS" value="user"/>
+    <property name="env.XAUTHORITY" value="/home/crisagui/.Xauthority"/>
+    <property name="env.OLDPWD" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="env.PWD" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="env.LANG" value="es_SV.UTF-8"/>
+    <property name="env.SESSION_MANAGER" value="local/Notebook:@/tmp/.ICE-unix/1399,unix/Notebook:/tmp/.ICE-unix/1399"/>
+    <property name="felix.fileinstall.dir" value="/tmp/gfembed835867623391004339tmp/modules/autostart/"/>
+    <property name="java.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/test-classes:/home/crisagui/NetBeansProjects/Baches/target/classes:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/crisagui/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/crisagui/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/crisagui/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar:/home/crisagui/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar:/home/crisagui/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/crisagui/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/crisagui/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-container/1.7.0.Alpha10/arquillian-junit5-container-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.7.0.Alpha10/arquillian-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.7.0.Alpha10/arquillian-core-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.7.0.Alpha10/arquillian-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.7.0.Alpha10/arquillian-core-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.7.0.Alpha10/arquillian-container-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0/shrinkwrap-descriptors-api-base-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.7.0.Alpha10/arquillian-container-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.7.0.Alpha10/arquillian-core-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.7.0.Alpha10/arquillian-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.7.0.Alpha10/arquillian-container-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.7.0.Alpha10/arquillian-config-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.7.0.Alpha10/arquillian-config-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-spi/1.7.0.Alpha10/arquillian-config-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0/shrinkwrap-descriptors-spi-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.7.0.Alpha10/arquillian-container-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-core/1.7.0.Alpha10/arquillian-junit5-core-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.6/shrinkwrap-impl-base-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar:/home/crisagui/.m2/repository/fish/payara/extras/payara-embedded-all/5.2022.1/payara-embedded-all-5.2022.1.jar:/home/crisagui/.m2/repository/fish/payara/arquillian/arquillian-payara-server-embedded/2.4.6/arquillian-payara-server-embedded-2.4.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.7.0.Alpha10/arquillian-container-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.7.0.Alpha10/arquillian-protocol-servlet-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.7.0.Alpha10/arquillian-testenricher-cdi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.7.0.Alpha10/arquillian-testenricher-ejb-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.7.0.Alpha10/arquillian-testenricher-resource-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.7.0.Alpha10/arquillian-testenricher-initialcontext-1.7.0.Alpha10.jar:"/>
+    <property name="env.HOME" value="/home/crisagui"/>
+    <property name="env.PAM_KWALLET5_LOGIN" value="/run/user/1000/kwallet5.socket"/>
+    <property name="com.sun.aas.instanceRootURI" value="file:/tmp/gfembed835867623391004339tmp/"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="user.timezone" value="America/El_Salvador"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="env.DISPLAY" value=":0"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SV"/>
+    <property name="env.QT_ACCESSIBILITY" value="1"/>
+    <property name="org.glassfish.grizzly.DEFAULT_MEMORY_MANAGER" value="org.glassfish.grizzly.memory.HeapMemoryManager"/>
+    <property name="surefire.test.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/test-classes:/home/crisagui/NetBeansProjects/Baches/target/classes:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/crisagui/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/crisagui/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/crisagui/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar:/home/crisagui/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar:/home/crisagui/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/crisagui/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/crisagui/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-container/1.7.0.Alpha10/arquillian-junit5-container-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.7.0.Alpha10/arquillian-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.7.0.Alpha10/arquillian-core-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.7.0.Alpha10/arquillian-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.7.0.Alpha10/arquillian-core-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.7.0.Alpha10/arquillian-container-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0/shrinkwrap-descriptors-api-base-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.7.0.Alpha10/arquillian-container-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.7.0.Alpha10/arquillian-core-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.7.0.Alpha10/arquillian-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.7.0.Alpha10/arquillian-container-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.7.0.Alpha10/arquillian-config-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.7.0.Alpha10/arquillian-config-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-spi/1.7.0.Alpha10/arquillian-config-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0/shrinkwrap-descriptors-spi-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.7.0.Alpha10/arquillian-container-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-core/1.7.0.Alpha10/arquillian-junit5-core-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.6/shrinkwrap-impl-base-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar:/home/crisagui/.m2/repository/fish/payara/extras/payara-embedded-all/5.2022.1/payara-embedded-all-5.2022.1.jar:/home/crisagui/.m2/repository/fish/payara/arquillian/arquillian-payara-server-embedded/2.4.6/arquillian-payara-server-embedded-2.4.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.7.0.Alpha10/arquillian-container-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.7.0.Alpha10/arquillian-protocol-servlet-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.7.0.Alpha10/arquillian-testenricher-cdi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.7.0.Alpha10/arquillian-testenricher-ejb-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.7.0.Alpha10/arquillian-testenricher-resource-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.7.0.Alpha10/arquillian-testenricher-initialcontext-1.7.0.Alpha10.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/crisagui"/>
+    <property name="user.language" value="es"/>
+    <property name="javax.rmi.CORBA.PortableRemoteObjectClass" value="com.sun.corba.ee.impl.javax.rmi.PortableRemoteObject"/>
+    <property name="felix.fileinstall.bundles.new.start" value="true"/>
+    <property name="com.sun.aas.hostName" value="Notebook"/>
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1"/>
+    <property name="JMS_PROVIDER_PORT" value="7676"/>
+    <property name="env.NB_DESKTOP_STARTUP_ID" value="Notebook;1652029182;338323;1426_TIME202783"/>
+    <property name="javax.net.ssl.keyStorePassword" value="changeit"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="com.ctc.wstx.returnNullForDefaultNamespace" value="true"/>
+    <property name="org.omg.CORBA.ORBClass" value="com.sun.corba.ee.impl.orb.ORBImpl"/>
+    <property name="surefire.real.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter6300054079245067502.jar"/>
+    <property name="eclipselink.security.usedoprivileged" value="true"/>
+    <property name="env.LANGUAGE" value="es_SV:es"/>
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
+    <property name="com.sun.aas.instanceName" value="server"/>
+    <property name="org.glassfish.additionalOSGiBundlesToStart" value="org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.16.14"/>
+    <property name="com.sun.aas.installRootURI" value="file:/tmp/gfembed835867623391004339tmp/"/>
+    <property name="java.endorsed.dirs" value="/tmp/gfembed835867623391004339tmp/modules/endorsed:/tmp/gfembed835867623391004339tmp/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="env.XDG_SESSION_ID" value="3"/>
+    <property name="osgi.shell.telnet.maxconn" value="1"/>
+    <property name="felix.fileinstall.bundles.startTransient" value="true"/>
+    <property name="com.sun.aas.configRoot" value="/tmp/gfembed835867623391004339tmp/config"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="env.KDE_SESSION_UID" value="1000"/>
+    <property name="env.KDE_APPLICATIONS_AS_SCOPE" value="1"/>
+    <property name="env.SHELL" value="/bin/bash"/>
+    <property name="com.sun.aas.javaRoot" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="maven.ext.class.path" value="/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="javax.net.ssl.keyStore" value="/tmp/gfembed835867623391004339tmp/config/keystore.jks"/>
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
+    <property name="env.GTK_MODULES" value="gail:atk-bridge"/>
+    <property name="java.security.auth.login.config" value="/tmp/gfembed835867623391004339tmp/config/login.conf"/>
+    <property name="felix.fileinstall.disableConfigSave" value="false"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value=" -Dmaven.ext.class.path=/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar install"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-11"/>
+    <property name="env.M2_HOME" value="/home/crisagui/netbeans-12.6/netbeans/java/maven"/>
+    <property name="catalina.home" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="user.dir" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="javax.management.builder.initial" value="com.sun.enterprise.v3.admin.AppServerMBeanServerBuilder"/>
+    <property name="osgi.shell.telnet.port" value="6666"/>
+    <property name="catalina.base" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="env.DESKTOP_SESSION" value="plasma"/>
+    <property name="env.XDG_CURRENT_DESKTOP" value="KDE"/>
+    <property name="env.MAVEN_PROJECTBASEDIR" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="glassfish.version" value="Undefined Product Name - define product and version info in config/branding  0.0.0  (build 0)"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.15+10-post-Debian-1deb11u1"/>
+    <property name="javax.security.jacc.PolicyConfigurationFactory.provider" value="com.sun.enterprise.security.provider.PolicyConfigurationFactoryImpl"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-11-openjdk-amd64/lib/ext:/usr/lib/jvm/java-11-openjdk-amd64/jre/lib/ext:/tmp/gfembed835867623391004339tmp/lib/ext"/>
+    <property name="env.GTK2_RC_FILES" value="/etc/gtk-2.0/gtkrc:/home/crisagui/.gtkrc-2.0:/home/crisagui/.config/gtkrc-2.0"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="env.USER" value="crisagui"/>
+    <property name="org.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection" value="true"/>
+    <property name="env.QT_AUTO_SCREEN_SCALE_FACTOR" value="0"/>
+  </properties>
+  <testcase name="testFindAll" classname="com.mycompany.baches.resources.RutaResourceIT" time="0.242">
+    <system-out><![CDATA[3d68a61a-6d1b-4865-b5f9-2b474af00e36.war:
+/WEB-INF/
+/WEB-INF/classes/
+/WEB-INF/classes/com/
+/WEB-INF/classes/com/mycompany/
+/WEB-INF/classes/com/mycompany/baches/
+/WEB-INF/classes/com/mycompany/baches/entity/
+/WEB-INF/classes/com/mycompany/baches/entity/resources/
+/WEB-INF/classes/com/mycompany/baches/entity/resources/ObjetoEstado.class
+/WEB-INF/classes/com/mycompany/baches/entity/resources/TipoObjeto.class
+/WEB-INF/classes/com/mycompany/baches/entity/resources/Objeto.class
+/WEB-INF/classes/com/mycompany/baches/entity/resources/Estado.class
+/WEB-INF/classes/com/mycompany/baches/entity/resources/Ruta.class
+/WEB-INF/classes/com/mycompany/baches/control/
+/WEB-INF/classes/com/mycompany/baches/control/AbstractDataAcces.class
+/WEB-INF/classes/com/mycompany/baches/control/RutaBean.class
+/WEB-INF/classes/com/mycompany/baches/configuration/
+/WEB-INF/classes/com/mycompany/baches/configuration/JakartaRestConfiguration.class
+/WEB-INF/classes/com/mycompany/baches/configuration/RutaResource.class
+/WEB-INF/classes/persistence-arquillian.xml
+/WEB-INF/classes/META-INF/
+/WEB-INF/classes/META-INF/persistence.xml
+/WEB-INF/classes/META-INF/sql/
+/WEB-INF/classes/META-INF/sql/datos.sql
+/WEB-INF/beans.xml
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/DatabaseMetaData dbMeta5 = conn0.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/dbMeta5.getDatabaseProductName();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/dbMeta5.getDatabaseProductVersion();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/dbMeta5.getDatabaseMajorVersion();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/DatabaseMetaData dbMeta6 = conn0.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/dbMeta6.getDriverName();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep81 = conn0.prepareStatement("SELECT 1 FROM public.estado", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.ESTADO]
+2022-05-08 20:32:02 jdbc[3]: Plan       :   for table filter PUBLIC.ESTADO
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.ESTADO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,270 index PUBLIC.PRIMARY_KEY_7
+2022-05-08 20:32:02 jdbc[3]: Plan       :   best plan item cost 10,260 index PUBLIC.ESTADO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Plan       : plan cost 10,261
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep81.setMaxRows(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSet rs30 = prep81.executeQuery();
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/SELECT 1 FROM public.estado;
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta31 = rs30.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta31.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta31.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta31.getColumnLabel(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta31.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta32 = rs30.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta32.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs30.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta32.getColumnType(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs30.getObject(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs30.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs30.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep81.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep82 = conn0.prepareStatement("SELECT 1 FROM public.objeto", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
+2022-05-08 20:32:02 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.OBJETO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,270 index PUBLIC.PRIMARY_KEY_8
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,080 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-08 20:32:02 jdbc[3]: Plan       :   best plan item cost 10,080 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-08 20:32:02 jdbc[3]: Plan       : plan cost 10,081
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep82.setMaxRows(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSet rs31 = prep82.executeQuery();
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/SELECT 1 FROM public.objeto;
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta33 = rs31.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta33.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta33.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta33.getColumnLabel(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta33.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta34 = rs31.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta34.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs31.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta34.getColumnType(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs31.getObject(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs31.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs31.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep82.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep83 = conn0.prepareStatement("SELECT 1 FROM public.objeto_estado", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-08 20:32:02 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,270 index PUBLIC.PRIMARY_KEY_4
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,080 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,080 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
+2022-05-08 20:32:02 jdbc[3]: Plan       :   best plan item cost 10,080 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-08 20:32:02 jdbc[3]: Plan       : plan cost 10,081
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep83.setMaxRows(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSet rs32 = prep83.executeQuery();
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/SELECT 1 FROM public.objeto_estado;
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta35 = rs32.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta35.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta35.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta35.getColumnLabel(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta35.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta36 = rs32.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta36.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs32.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta36.getColumnType(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs32.getObject(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs32.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs32.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep83.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep84 = conn0.prepareStatement("SELECT 1 FROM public.ruta", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.RUTA]
+2022-05-08 20:32:02 jdbc[3]: Plan       :   for table filter PUBLIC.RUTA
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,270 index PUBLIC.PRIMARY_KEY_2
+2022-05-08 20:32:02 jdbc[3]: Plan       :   best plan item cost 10,260 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:02 jdbc[3]: Plan       : plan cost 10,261
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep84.setMaxRows(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSet rs33 = prep84.executeQuery();
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/SELECT 1 FROM public.ruta;
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta37 = rs33.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta37.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta37.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta37.getColumnLabel(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta37.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta38 = rs33.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta38.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs33.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta38.getColumnType(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs33.getObject(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs33.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs33.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep84.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep85 = conn0.prepareStatement("SELECT 1 FROM public.tipo_objeto", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
+2022-05-08 20:32:02 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,280 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Table      :     potential plan item cost 10,290 index PUBLIC.PRIMARY_KEY_1
+2022-05-08 20:32:02 jdbc[3]: Plan       :   best plan item cost 10,280 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-08 20:32:02 jdbc[3]: Plan       : plan cost 10,281
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep85.setMaxRows(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSet rs34 = prep85.executeQuery();
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/SELECT 1 FROM public.tipo_objeto;
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta39 = rs34.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta39.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta39.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta39.getColumnLabel(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta39.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/ResultSetMetaData rsMeta40 = rs34.getMetaData();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta40.getColumnCount();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs34.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rsMeta40.getColumnType(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs34.getObject(1);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs34.next();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/rs34.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep85.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep86 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (false,'2022-3-01');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep86.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (false,'2022-3-01');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep86.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep87 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-02');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep87.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-02');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep87.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep88 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep88.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep88.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep89 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep89.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep89.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep90 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('1.3845285035','5.3456798788','Insertado desde datos.sql');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep90.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1 t:1*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('1.3845285035','5.3456798788','Insertado desde datos.sql');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep90.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep91 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('2.5392273491','3.5559444444','Insertado desde datos.sql');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep91.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('2.5392273491','3.5559444444','Insertado desde datos.sql');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep91.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep92 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('3.1234987654','1.0873023588','Insertado desde datos.sql');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep92.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('3.1234987654','1.0873023588','Insertado desde datos.sql');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep92.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep93 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep93.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1 t:1*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep93.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep94 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(false,'2022-05-02');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep94.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1 t:1*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(false,'2022-05-02');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep94.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep95 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep95.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1 t:1*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep95.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep96 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep96.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:02 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep96.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep97 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep97.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:02 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep97.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep98 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep98.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:02 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep98.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep99 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-01');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep99.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-01');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep99.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep100 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-02');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep100.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-02');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep100.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/PreparedStatement prep101 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep101.executeUpdate();
+2022-05-08 20:32:02 lock: 3 shared read lock requesting for ESTADO 
+2022-05-08 20:32:02 lock: 3 shared read lock ok ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/*SQL #:1*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-08 20:32:02 lock: 3 shared read lock unlock ESTADO 
+2022-05-08 20:32:02 jdbc[3]: 
+/**/prep101.close();
+2022-05-08 20:32:02 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+
+
+
+findAllRuta
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep102 = conn0.prepareStatement("SELECT id_ruta AS a1, fecha_creacion AS a2, nombre AS a3, observaciones AS a4 FROM public.ruta LIMIT ? OFFSET ?", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.RUTA]
+2022-05-08 20:32:04 jdbc[3]: Plan       :   for table filter PUBLIC.RUTA
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 10,290 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 10,300 index PUBLIC.PRIMARY_KEY_2
+2022-05-08 20:32:04 jdbc[3]: Plan       :   best plan item cost 10,290 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:04 jdbc[3]: Plan       : plan cost 10,291
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep102.setInt(1, 50);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep102.setInt(2, 0);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSet rs35 = prep102.executeQuery();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL l:111 #:9*/SELECT id_ruta AS a1, fecha_creacion AS a2, nombre AS a3, observaciones AS a4 FROM public.ruta LIMIT ? OFFSET ? {1: 50, 2: 0};
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta41 = rs35.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta41.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta41.getColumnType(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta41.getColumnType(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta41.getColumnType(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta41.getColumnType(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getDate(2);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(3);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.getString(4);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs35.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep102.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep103 = conn0.prepareStatement("SELECT COUNT(id_ruta) FROM public.ruta", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.RUTA]
+2022-05-08 20:32:04 jdbc[3]: Plan       :   for table filter PUBLIC.RUTA
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 10,290 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 10,300 index PUBLIC.PRIMARY_KEY_2
+2022-05-08 20:32:04 jdbc[3]: Plan       :   best plan item cost 10,290 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:04 jdbc[3]: Plan       : plan cost 10,291
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSet rs36 = prep103.executeQuery();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL #:1*/SELECT COUNT(id_ruta) FROM public.ruta;
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta42 = rs36.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta42.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs36.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta42.getColumnType(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs36.getLong(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs36.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs36.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep103.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+
+
+
+ID: 1
+ID: 2
+ID: 3
+ID: 4
+ID: 5
+ID: 6
+ID: 7
+ID: 8
+ID: 9
+
+
+
+]]></system-out>
+    <system-err><![CDATA[may. 08, 2022 8:32:01 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:01 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:01 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+INFORMACIÓN: visiting unvisited references
+may. 08, 2022 8:32:02 P. M. org.eclipse.persistence.session./file:/tmp/gfembed835867623391004339tmp/applications/3d68a61a-6d1b-4865-b5f9-2b474af00e36/WEB-INF/classes/_Baches_PU
+INFORMACIÓN: EclipseLink, version: Eclipse Persistence Services - 2.7.9.payara-p1
+may. 08, 2022 8:32:02 P. M. com.sun.logging.LogDomains getResourceBundle
+INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.util for class com.sun.appserv.ClassLoaderUtil using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
+may. 08, 2022 8:32:02 P. M. com.sun.appserv.ClassLoaderUtil releaseLoader
+ADVERTENCIA: classloaderutil.errorReleasingLoader
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.ArrayList jdk.internal.loader.URLClassPath.loaders accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @f2a0b8e
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:340)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:280)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:176)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:170)
+	at com.sun.appserv.ClassLoaderUtil.getField(ClassLoaderUtil.java:308)
+	at com.sun.appserv.ClassLoaderUtil.initForClosingJars(ClassLoaderUtil.java:290)
+	at com.sun.appserv.ClassLoaderUtil.init(ClassLoaderUtil.java:263)
+	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:139)
+	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:111)
+	at org.glassfish.web.loader.WebappClassLoader.stop(WebappClassLoader.java:2000)
+	at org.glassfish.web.loader.WebappClassLoader.preDestroy(WebappClassLoader.java:1961)
+	at org.glassfish.deployment.common.DeploymentContextImpl.getClassLoader(DeploymentContextImpl.java:293)
+	at org.glassfish.deployment.common.DeploymentContextImpl.getClassLoader(DeploymentContextImpl.java:235)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.prepare(ApplicationLifecycle.java:561)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:588)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:552)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:551)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:582)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:574)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:573)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1497)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:120)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1879)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1755)
+	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:131)
+	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:104)
+	at fish.payara.arquillian.container.payara.embedded.PayaraContainer.deploy(PayaraContainer.java:236)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:151)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:118)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:239)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:92)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:232)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:212)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:89)
+	at org.jboss.arquillian.junit5.ArquillianExtension.beforeAll(ArquillianExtension.java:35)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllCallbacks$7(ClassBasedTestDescriptor.java:359)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllCallbacks(ClassBasedTestDescriptor.java:359)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:189)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:78)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:132)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+may. 08, 2022 8:32:02 P. M. com.sun.ejb.containers.BaseContainer initializeHome
+INFORMACIÓN: Portable JNDI names for EJB RutaBean: [java:global/3d68a61a-6d1b-4865-b5f9-2b474af00e36/RutaBean, java:global/3d68a61a-6d1b-4865-b5f9-2b474af00e36/RutaBean!com.mycompany.baches.control.RutaBean]
+may. 08, 2022 8:32:03 P. M. fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl postConstruct
+INFORMACIÓN: Clustered CDI Event bus initialized
+may. 08, 2022 8:32:03 P. M. org.glassfish.soteria.servlet.SamRegistrationInstaller onStartup
+INFORMACIÓN: Initializing Soteria null for context '/3d68a61a-6d1b-4865-b5f9-2b474af00e36'
+may. 08, 2022 8:32:03 P. M. com.sun.enterprise.web.WebApplication start
+INFORMACIÓN: Loading application [3d68a61a-6d1b-4865-b5f9-2b474af00e36] at [/3d68a61a-6d1b-4865-b5f9-2b474af00e36]
+may. 08, 2022 8:32:04 P. M. org.glassfish.deployment.admin.DeployCommand execute
+INFORMACIÓN: 3d68a61a-6d1b-4865-b5f9-2b474af00e36 was successfully deployed in 2,792 milliseconds.
+]]></system-err>
+  </testcase>
+  <testcase name="testModificar" classname="com.mycompany.baches.resources.RutaResourceIT" time="0.13">
+    <system-out><![CDATA[
+
+
+Modificar Ruta
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(false);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep104 = conn0.prepareStatement("INSERT INTO public.ruta (fecha_creacion, nombre, observaciones) VALUES (?, ?, ?)", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep104.setNull(1, 91);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep104.setString(2, "RutaModificada");
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep104.setString(3, "RutaFueModificada");
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep104.executeUpdate();
+2022-05-08 20:32:04 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:04 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL l:80 #:1 t:3*/INSERT INTO public.ruta (fecha_creacion, nombre, observaciones) VALUES (?, ?, ?) {1: NULL, 2: 'RutaModificada', 3: 'RutaFueModificada'};
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep104.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep105 = conn0.prepareStatement("CALL IDENTITY()", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSet rs37 = prep105.executeQuery();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL #:1*/CALL IDENTITY();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta43 = rs37.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta43.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta43.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta43.getColumnLabel(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta43.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta44 = rs37.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta44.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs37.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta44.getColumnType(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs37.getObject(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs37.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs37.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep105.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(true);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+
+
+
+Modificado {"nombre":"RutaModificada","observaciones":"RutaFueModificada"}
+
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCrear" classname="com.mycompany.baches.resources.RutaResourceIT" time="0.12">
+    <system-out><![CDATA[
+
+
+Crear TipoObjeto
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(false);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep106 = conn0.prepareStatement("INSERT INTO public.ruta (fecha_creacion, nombre, observaciones) VALUES (?, ?, ?)", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep106.setDate(1, Date.valueOf("2022-05-08"));
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep106.setString(2, "RutaPrueba");
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep106.setString(3, "RutaPrueba");
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep106.executeUpdate();
+2022-05-08 20:32:04 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:04 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL l:80 #:1*/INSERT INTO public.ruta (fecha_creacion, nombre, observaciones) VALUES (?, ?, ?) {1: DATE '2022-05-08', 2: 'RutaPrueba', 3: 'RutaPrueba'};
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep106.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep107 = conn0.prepareStatement("CALL IDENTITY()", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSet rs38 = prep107.executeQuery();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL #:1*/CALL IDENTITY();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta45 = rs38.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta45.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta45.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta45.getColumnLabel(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta45.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/ResultSetMetaData rsMeta46 = rs38.getMetaData();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getCatalog();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta46.getColumnCount();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs38.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rsMeta46.getColumnType(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs38.getObject(1);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs38.next();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/rs38.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep107.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(true);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+
+
+
+Creado {"fechaCreacion":"2022-05-09T02:32:04.454Z[UTC]","idRuta":11,"nombre":"RutaPrueba","observaciones":"RutaPrueba"}
+
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testEliminar" classname="com.mycompany.baches.resources.RutaResourceIT" time="0.108">
+    <system-out><![CDATA[
+
+
+Eliminar TipoObjeto
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.getClientInfo();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(false);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/PreparedStatement prep108 = conn0.prepareStatement("DELETE FROM public.ruta WHERE (id_ruta = ?)", 1003, 1007);
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 10,310 index PUBLIC.RUTA.tableScan
+2022-05-08 20:32:04 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_2
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep108.setLong(1, 3L);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep108.executeUpdate();
+2022-05-08 20:32:04 lock: 3 shared read lock requesting for RUTA 
+2022-05-08 20:32:04 lock: 3 shared read lock ok RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL l:43 #:1*/DELETE FROM public.ruta WHERE (id_ruta = ?) {1: 3};
+2022-05-08 20:32:04 jdbc[3]: 
+/**/prep108.close();
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setClientInfo(properties);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 lock: 3 shared read lock unlock RUTA 
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.setAutoCommit(true);
+2022-05-08 20:32:04 jdbc[3]: 
+/**/conn0.commit();
+2022-05-08 20:32:04 jdbc[3]: 
+/*SQL */COMMIT;
+
+
+
+ID:3 eliminado con exito
+
+
+
+]]></system-out>
+  </testcase>
+</testsuite>

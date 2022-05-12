@@ -1,5 +1,7 @@
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/EstadoBean.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/ObjetoEstado.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/ObjetoEstadoResource.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/EstadoResource.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/JakartaEE8Resource.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Ruta.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/ObjetoResource.java
@@ -10,8 +12,10 @@
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/CorsFilter.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/Estado.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/boundary/JavaEE8Resource.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/ObjetoEstadoBean.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/RutaBean.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/entity/resources/TipoObjeto.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/tipoObjetoResource.java
-/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/BeanDePrueba.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/boundary/JAXRSConfiguration.java
 /home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/control/AbstractDataAcces.java
+/home/crisagui/NetBeansProjects/Baches/src/main/java/com/mycompany/baches/configuration/RutaResource.java

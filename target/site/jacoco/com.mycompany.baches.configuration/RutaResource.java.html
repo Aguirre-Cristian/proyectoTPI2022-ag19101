@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RutaResource.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Baches-1.0-SNAPSHOT</a> &gt; <a href="index.source.html" class="el_package">com.mycompany.baches.configuration</a> &gt; <span class="el_source">RutaResource.java</span></div><h1>RutaResource.java</h1><pre class="source lang-java linenums">/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.baches.configuration;
+
+import com.mycompany.baches.control.RutaBean;
+import com.mycompany.baches.entity.resources.Ruta;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.DefaultValue;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+
+/**
+ *
+ * @author crisagui
+ */
+@Path(&quot;Ruta&quot;)
+@RequestScoped
+<span class="nc" id="L30">public class RutaResource {</span>
+    @Inject
+    RutaBean toBean;
+    
+    public Response findAll() {
+<span class="nc" id="L35">        List&lt;Ruta&gt; registros = toBean.findAll();</span>
+<span class="nc" id="L36">        Long total = toBean.contar();</span>
+<span class="nc" id="L37">        return Response.ok(registros)</span>
+<span class="nc" id="L38">                .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L39">                .build();</span>
+    }
+    @GET
+    @Produces({&quot;application/json; charset=UTF-8&quot;})
+    public Response findRange(
+            @QueryParam(value = &quot;first&quot;)
+            @DefaultValue(value = &quot;0&quot;) int first,
+            @QueryParam(value = &quot;pagesize&quot;)
+            @DefaultValue(value = &quot;50&quot;) int pageSize){
+<span class="nc" id="L48">        List&lt;Ruta&gt; registros = toBean.findRange(first, pageSize);</span>
+<span class="nc" id="L49">        Long total = toBean.contar();</span>
+<span class="nc" id="L50">        return Response.ok(registros)</span>
+<span class="nc" id="L51">            .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L52">                .build();</span>
+    }
+    
+    @GET
+    @Path(&quot;contar&quot;)
+    public CompletableFuture&lt;Long&gt; contar(){
+<span class="nc" id="L58">        return CompletableFuture.supplyAsync(toBean::contar); </span>
+    } 
+    
+    @POST
+    public Response Crear(Ruta nuevo){
+<span class="nc" id="L63">        toBean.crear(nuevo);</span>
+<span class="nc" id="L64">        return Response.ok(nuevo)</span>
+<span class="nc" id="L65">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
+<span class="nc" id="L66">                .build();</span>
+    }
+    
+    @PUT
+    public Response Modificar(Ruta modificar){
+<span class="nc" id="L71">        toBean.actualizar(modificar);</span>
+<span class="nc" id="L72">        return Response.ok(modificar)</span>
+<span class="nc" id="L73">                .header(&quot;Modificado&quot;, modificar)</span>
+<span class="nc" id="L74">                .build();</span>
+    }
+    
+    @DELETE
+    @Path(&quot;{idRuta}&quot;)
+    public Response Eliminar(@PathParam(&quot;idRuta&quot;) long id){
+<span class="nc" id="L80">        Ruta registro = toBean.findById(id);</span>
+<span class="nc" id="L81">        toBean.eliminar(registro);</span>
+<span class="nc" id="L82">        return Response.ok(registro)</span>
+<span class="nc" id="L83">            .header(&quot;ID-eliminado&quot;,id)</span>
+<span class="nc" id="L84">                    .build();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

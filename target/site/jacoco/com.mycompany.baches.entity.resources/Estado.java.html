@@ -58,7 +58,7 @@ public class Estado implements Serializable {
 <span class="nc" id="L58">    }</span>
 
     public Integer getIdEstado() {
-<span class="nc" id="L61">        return idEstado;</span>
+<span class="fc" id="L61">        return idEstado;</span>
     }
 
     public void setIdEstado(Integer idEstado) {
@@ -66,31 +66,31 @@ public class Estado implements Serializable {
 <span class="nc" id="L66">    }</span>
 
     public String getNombre() {
-<span class="nc" id="L69">        return nombre;</span>
+<span class="fc" id="L69">        return nombre;</span>
     }
 
     public void setNombre(String nombre) {
-<span class="nc" id="L73">        this.nombre = nombre;</span>
-<span class="nc" id="L74">    }</span>
+<span class="fc" id="L73">        this.nombre = nombre;</span>
+<span class="fc" id="L74">    }</span>
 
     public Date getFechaCreacion() {
-<span class="nc" id="L77">        return fechaCreacion;</span>
+<span class="fc" id="L77">        return fechaCreacion;</span>
     }
 
     public void setFechaCreacion(Date fechaCreacion) {
-<span class="nc" id="L81">        this.fechaCreacion = fechaCreacion;</span>
-<span class="nc" id="L82">    }</span>
+<span class="fc" id="L81">        this.fechaCreacion = fechaCreacion;</span>
+<span class="fc" id="L82">    }</span>
 
     public String getObservaciones() {
-<span class="nc" id="L85">        return observaciones;</span>
+<span class="fc" id="L85">        return observaciones;</span>
     }
 
     public void setObservaciones(String observaciones) {
-<span class="nc" id="L89">        this.observaciones = observaciones;</span>
-<span class="nc" id="L90">    }</span>
+<span class="fc" id="L89">        this.observaciones = observaciones;</span>
+<span class="fc" id="L90">    }</span>
 
     public List&lt;ObjetoEstado&gt; getObjetoEstadoList() {
-<span class="nc" id="L93">        return objetoEstadoList;</span>
+<span class="fc" id="L93">        return objetoEstadoList;</span>
     }
 
     public void setObjetoEstadoList(List&lt;ObjetoEstado&gt; objetoEstadoList) {
@@ -99,9 +99,9 @@ public class Estado implements Serializable {
 
     @Override
     public int hashCode() {
-<span class="nc" id="L102">        int hash = 0;</span>
-<span class="nc bnc" id="L103" title="All 2 branches missed.">        hash += (idEstado != null ? idEstado.hashCode() : 0);</span>
-<span class="nc" id="L104">        return hash;</span>
+<span class="fc" id="L102">        int hash = 0;</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">        hash += (idEstado != null ? idEstado.hashCode() : 0);</span>
+<span class="fc" id="L104">        return hash;</span>
     }
 
     @Override
@@ -119,7 +119,7 @@ public class Estado implements Serializable {
 
     @Override
     public String toString() {
-<span class="nc" id="L122">        return &quot;com.mycompany.mapeobahes.entity.Estado[ idEstado=&quot; + idEstado + &quot; ]&quot;;</span>
+<span class="fc" id="L122">        return &quot;com.mycompany.mapeobahes.entity.Estado[ idEstado=&quot; + idEstado + &quot; ]&quot;;</span>
     }
     
 }

@@ -1,6 +1,7 @@
-/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/ObjetoResourceIT.java
 /home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/tipoObjetoBeanTest.java
-/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/BeanDePruebaIT.java
-/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/BeanDePruebaTest.java
-/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/TipoObjetoResourceIT.java
+/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/resources/RutaResourceIT.java
+/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/resources/TipoObjetoResourceIT.java
+/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/resources/EstadoResourceIT.java
+/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/resources/ObjetoResourceIT.java
 /home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/control/TipoObjetoIT.java
+/home/crisagui/NetBeansProjects/Baches/src/test/java/com/mycompany/baches/resources/ObjetoEstadoResourceIT.java
