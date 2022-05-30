@@ -27,63 +27,68 @@ import javax.ws.rs.core.Response;
  */
 @Path(&quot;Estado&quot;)
 @RequestScoped
-<span class="fc" id="L30">public class EstadoResource {</span>
+<span class="nc" id="L30">public class EstadoResource {</span>
 
     @Inject
     EstadoBean toBean;
 
     @GET
+    @Path(&quot;findAll&quot;)
     @Produces({&quot;application/json; charset=UTF-8&quot;})
     public Response findAll() {
-<span class="fc" id="L38">        List&lt;Estado&gt; registros = toBean.findAll();</span>
-<span class="fc" id="L39">        Long total = toBean.contar();</span>
-<span class="fc" id="L40">        return Response.ok(registros)</span>
-<span class="fc" id="L41">                .header(&quot;Total-Registros&quot;, total)</span>
-<span class="fc" id="L42">                .build();</span>
+<span class="nc" id="L39">        List&lt;Estado&gt; registros = toBean.findAll();</span>
+<span class="nc" id="L40">        Long total = toBean.contar();</span>
+<span class="nc" id="L41">        return Response.ok(registros)</span>
+<span class="nc" id="L42">                .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L43">                .build();</span>
     }
 
+    @GET
+    @Path(&quot;findRange&quot;)
     public Response findRange(
             @QueryParam(value = &quot;first&quot;)
             @DefaultValue(value = &quot;0&quot;) int first,
             @QueryParam(value = &quot;pagesize&quot;)
             @DefaultValue(value = &quot;50&quot;) int pageSize) {
-<span class="nc" id="L50">        List&lt;Estado&gt; registros = toBean.findRange(first, pageSize);</span>
-<span class="nc" id="L51">        Long total = toBean.contar();</span>
-<span class="nc" id="L52">        return Response.ok(registros)</span>
-<span class="nc" id="L53">                .header(&quot;Total-Registros&quot;, total)</span>
-<span class="nc" id="L54">                .build();</span>
+<span class="nc" id="L53">        List&lt;Estado&gt; registros = toBean.findRange(first, pageSize);</span>
+<span class="nc" id="L54">        Long total = toBean.contar();</span>
+<span class="nc" id="L55">        return Response.ok(registros)</span>
+<span class="nc" id="L56">                .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L57">                .build();</span>
     }
 
     @GET
     @Path(&quot;contar&quot;)
     public CompletableFuture&lt;Long&gt; contar() {
-<span class="nc" id="L60">        return CompletableFuture.supplyAsync(toBean::contar);</span>
+<span class="nc" id="L63">        return CompletableFuture.supplyAsync(toBean::contar);</span>
     }
 
     @POST
+    @Path(&quot;crear&quot;)
     public Response Crear(Estado nuevo) {
-<span class="fc" id="L65">        toBean.crear(nuevo);</span>
-<span class="fc" id="L66">        return Response.ok(nuevo)</span>
-<span class="fc" id="L67">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
-<span class="fc" id="L68">                .build();</span>
+<span class="nc" id="L69">        toBean.crear(nuevo);</span>
+<span class="nc" id="L70">        return Response.ok(nuevo)</span>
+<span class="nc" id="L71">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
+<span class="nc" id="L72">                .build();</span>
     }
 
     @PUT
+    @Path(&quot;modificar&quot;)
     public Response Modificar(Estado modificar) {
-<span class="fc" id="L73">        toBean.actualizar(modificar);</span>
-<span class="fc" id="L74">        return Response.ok(modificar)</span>
-<span class="fc" id="L75">                .header(&quot;Modificado&quot;, modificar)</span>
-<span class="fc" id="L76">                .build();</span>
+<span class="nc" id="L78">        toBean.actualizar(modificar);</span>
+<span class="nc" id="L79">        return Response.ok(modificar)</span>
+<span class="nc" id="L80">                .header(&quot;Modificado&quot;, modificar)</span>
+<span class="nc" id="L81">                .build();</span>
     }
 
     @DELETE
     @Path(&quot;{idEstado}&quot;)
     public Response Eliminar(@PathParam(&quot;idEstado&quot;) int id) {
-<span class="fc" id="L82">        Estado registro = toBean.findById(id);</span>
-<span class="fc" id="L83">        toBean.eliminar(registro);</span>
-<span class="fc" id="L84">        return Response.ok(registro)</span>
-<span class="fc" id="L85">                .header(&quot;ID-eliminado&quot;, id)</span>
-<span class="fc" id="L86">                .build();</span>
+<span class="nc" id="L87">        Estado registro = toBean.findById(id);</span>
+<span class="nc" id="L88">        toBean.eliminar(registro);</span>
+<span class="nc" id="L89">        return Response.ok(registro)</span>
+<span class="nc" id="L90">                .header(&quot;ID-eliminado&quot;, id)</span>
+<span class="nc" id="L91">                .build();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

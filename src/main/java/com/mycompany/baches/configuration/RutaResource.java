@@ -31,6 +31,9 @@ public class RutaResource {
     @Inject
     RutaBean toBean;
     
+    @GET
+    @Path("findAll")
+    @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
         List<Ruta> registros = toBean.findAll();
         Long total = toBean.contar();
@@ -39,6 +42,7 @@ public class RutaResource {
                 .build();
     }
     @GET
+    @Path("findRange")
     @Produces({"application/json; charset=UTF-8"})
     public Response findRange(
             @QueryParam(value = "first")
@@ -59,6 +63,7 @@ public class RutaResource {
     } 
     
     @POST
+    @Path("crear")
     public Response Crear(Ruta nuevo){
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -67,6 +72,7 @@ public class RutaResource {
     }
     
     @PUT
+    @Path("modificar")
     public Response Modificar(Ruta modificar){
         toBean.actualizar(modificar);
         return Response.ok(modificar)

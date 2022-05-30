@@ -33,6 +33,8 @@ public class tipoObjetoResource {
     @Inject
     tipoObjetoBean toBean;
     
+    @GET
+    @Path("findAll")
     public Response findAll() {
         List<TipoObjeto> registros = toBean.findAll();
         Long total = toBean.contar();
@@ -40,7 +42,9 @@ public class tipoObjetoResource {
                 .header("Total-Registros", total)
                 .build();
     }
+    
     @GET
+    @Path("finRange")
     @Produces({"application/json; charset=UTF-8"})
     public Response findRange(
             @QueryParam(value = "first")
@@ -61,6 +65,7 @@ public class tipoObjetoResource {
     } 
     
     @POST
+    @Path("crear")
     public Response Crear(TipoObjeto nuevo){
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -69,6 +74,7 @@ public class tipoObjetoResource {
     }
     
     @PUT
+    @Path("modificar")
     public Response Modificar(TipoObjeto modificar){
         toBean.actualizar(modificar);
         return Response.ok(modificar)

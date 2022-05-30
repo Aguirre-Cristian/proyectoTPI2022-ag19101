@@ -33,6 +33,7 @@ public class EstadoResource {
     EstadoBean toBean;
 
     @GET
+    @Path("findAll")
     @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
         List<Estado> registros = toBean.findAll();
@@ -42,6 +43,8 @@ public class EstadoResource {
                 .build();
     }
 
+    @GET
+    @Path("findRange")
     public Response findRange(
             @QueryParam(value = "first")
             @DefaultValue(value = "0") int first,
@@ -61,6 +64,7 @@ public class EstadoResource {
     }
 
     @POST
+    @Path("crear")
     public Response Crear(Estado nuevo) {
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -69,6 +73,7 @@ public class EstadoResource {
     }
 
     @PUT
+    @Path("modificar")
     public Response Modificar(Estado modificar) {
         toBean.actualizar(modificar);
         return Response.ok(modificar)

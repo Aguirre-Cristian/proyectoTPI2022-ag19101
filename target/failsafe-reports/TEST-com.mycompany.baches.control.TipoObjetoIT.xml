@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.mycompany.baches.control.TipoObjetoIT" time="49.485" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.mycompany.baches.control.TipoObjetoIT" time="52.619" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="javax.xml.accessExternalSchema" value="all"/>
     <property name="env.KDE_SESSION_VERSION" value="5"/>
@@ -12,17 +12,17 @@
     <property name="sun.cpu.isalist" value=""/>
     <property name="javax.net.ssl.trustStorePassword" value="changeit"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="com.sun.aas.installRoot" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="com.sun.aas.installRoot" value="/tmp/gfembed1733841136453709728tmp"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
-    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-11"/>
-    <property name="com.sun.aas.productRoot" value="/tmp"/>
     <property name="catalina.useNaming" value="false"/>
+    <property name="com.sun.aas.productRoot" value="/tmp"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-11"/>
     <property name="org.omg.CORBA.ORBSingletonClass" value="com.sun.corba.ee.impl.orb.ORBSingleton"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter6300054079245067502.jar /home/crisagui/NetBeansProjects/Baches/target/surefire 2022-05-08T20-30-54_992-jvmRun1 surefire5534081983766306136tmp surefire_013569592250857081702tmp"/>
+    <property name="sun.java.command" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter2396736306620326574.jar /home/crisagui/NetBeansProjects/Baches/target/surefire 2022-05-30T14-59-23_327-jvmRun1 surefire10299017250389780759tmp surefire_017333111527536490271tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="env.SSH_AGENT_PID" value="1286"/>
+    <property name="env.SSH_AGENT_PID" value="1540"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="gosh.args" value="--nointeractive"/>
     <property name="java.version.date" value="2022-04-19"/>
@@ -42,35 +42,35 @@
     <property name="jdk.attach.allowAttachSelf" value="true"/>
     <property name="javax.rmi.CORBA.UtilClass" value="com.sun.corba.ee.impl.javax.rmi.CORBA.Util"/>
     <property name="jdbc.drivers" value="org.h2.Driver"/>
-    <property name="javax.net.ssl.trustStore" value="/tmp/gfembed835867623391004339tmp/config/cacerts.jks"/>
+    <property name="javax.net.ssl.trustStore" value="/tmp/gfembed1733841136453709728tmp/config/cacerts.jks"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+10-post-Debian-1deb11u1"/>
     <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session1"/>
     <property name="user.name" value="crisagui"/>
-    <property name="env.PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"/>
-    <property name="env.NB_EXEC_MAVEN_PROCESS_UUID" value="3f06b37f-59d0-4f26-89dc-2479ef15bd6a"/>
+    <property name="env.PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin"/>
+    <property name="env.NB_EXEC_MAVEN_PROCESS_UUID" value="dc37c1b6-ddea-4a45-b242-0b37a035efce"/>
     <property name="felix.fileinstall.poll" value="5000"/>
-    <property name="java.security.policy" value="/tmp/gfembed835867623391004339tmp/config/server.policy"/>
+    <property name="java.security.policy" value="/tmp/gfembed1733841136453709728tmp/config/server.policy"/>
     <property name="env.LOGNAME" value="crisagui"/>
     <property name="env.XDG_SEAT" value="seat0"/>
     <property name="com.sun.enterprise.config.config_environment_factory_class" value="com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory"/>
     <property name="felix.fileinstall.log.level" value="2"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="com.sun.aas.imqLib" value="/tmp/gfembed835867623391004339tmp/lib/install/applications/jmsra"/>
+    <property name="com.sun.aas.imqLib" value="/tmp/gfembed1733841136453709728tmp/lib/install/applications/jmsra"/>
     <property name="env.XDG_VTNR" value="7"/>
     <property name="env._" value="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"/>
     <property name="env.XDG_SESSION_DESKTOP" value="KDE"/>
     <property name="env.SHLVL" value="0"/>
-    <property name="com.sun.enterprise.jaccprovider.property.repository" value="/tmp/gfembed835867623391004339tmp/generated/policy"/>
+    <property name="com.sun.enterprise.jaccprovider.property.repository" value="/tmp/gfembed1733841136453709728tmp/generated/policy"/>
     <property name="localRepository" value="/home/crisagui/.m2/repository"/>
     <property name="env.XCURSOR_THEME" value="breeze_cursors"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="env.XCURSOR_SIZE" value="24"/>
     <property name="java.version" value="11.0.15"/>
-    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-CP13LZLTLvK8/agent.1237"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-sAXaQPC41aon/agent.1493"/>
     <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="com.sun.aas.instanceRoot" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="com.sun.aas.instanceRoot" value="/tmp/gfembed1733841136453709728tmp"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="env.KDE_FULL_SESSION" value="true"/>
@@ -84,14 +84,15 @@
     <property name="env.XAUTHORITY" value="/home/crisagui/.Xauthority"/>
     <property name="env.OLDPWD" value="/home/crisagui/NetBeansProjects/Baches"/>
     <property name="env.PWD" value="/home/crisagui/NetBeansProjects/Baches"/>
+    <property name="env.SESSION_MANAGER" value="local/Notebook:@/tmp/.ICE-unix/1660,unix/Notebook:/tmp/.ICE-unix/1660"/>
     <property name="env.LANG" value="es_SV.UTF-8"/>
-    <property name="env.SESSION_MANAGER" value="local/Notebook:@/tmp/.ICE-unix/1399,unix/Notebook:/tmp/.ICE-unix/1399"/>
-    <property name="felix.fileinstall.dir" value="/tmp/gfembed835867623391004339tmp/modules/autostart/"/>
+    <property name="felix.fileinstall.dir" value="/tmp/gfembed1733841136453709728tmp/modules/autostart/"/>
     <property name="java.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/test-classes:/home/crisagui/NetBeansProjects/Baches/target/classes:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/crisagui/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/crisagui/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/crisagui/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/crisagui/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar:/home/crisagui/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar:/home/crisagui/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/crisagui/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/crisagui/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/crisagui/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-container/1.7.0.Alpha10/arquillian-junit5-container-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.7.0.Alpha10/arquillian-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.7.0.Alpha10/arquillian-core-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.7.0.Alpha10/arquillian-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.7.0.Alpha10/arquillian-core-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.7.0.Alpha10/arquillian-container-test-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0/shrinkwrap-descriptors-api-base-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.7.0.Alpha10/arquillian-container-test-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.7.0.Alpha10/arquillian-core-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.7.0.Alpha10/arquillian-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.7.0.Alpha10/arquillian-container-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.7.0.Alpha10/arquillian-config-api-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.7.0.Alpha10/arquillian-config-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/config/arquillian-config-spi/1.7.0.Alpha10/arquillian-config-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0/shrinkwrap-descriptors-spi-2.0.0.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.7.0.Alpha10/arquillian-container-test-impl-base-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-core/1.7.0.Alpha10/arquillian-junit5-core-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.6/shrinkwrap-impl-base-1.2.6.jar:/home/crisagui/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar:/home/crisagui/.m2/repository/fish/payara/extras/payara-embedded-all/5.2022.1/payara-embedded-all-5.2022.1.jar:/home/crisagui/.m2/repository/fish/payara/arquillian/arquillian-payara-server-embedded/2.4.6/arquillian-payara-server-embedded-2.4.6.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.7.0.Alpha10/arquillian-container-spi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.7.0.Alpha10/arquillian-protocol-servlet-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.7.0.Alpha10/arquillian-testenricher-cdi-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.7.0.Alpha10/arquillian-testenricher-ejb-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.7.0.Alpha10/arquillian-testenricher-resource-1.7.0.Alpha10.jar:/home/crisagui/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.7.0.Alpha10/arquillian-testenricher-initialcontext-1.7.0.Alpha10.jar:"/>
     <property name="env.HOME" value="/home/crisagui"/>
     <property name="env.PAM_KWALLET5_LOGIN" value="/run/user/1000/kwallet5.socket"/>
-    <property name="com.sun.aas.instanceRootURI" value="file:/tmp/gfembed835867623391004339tmp/"/>
+    <property name="com.sun.aas.instanceRootURI" value="file:/tmp/gfembed1733841136453709728tmp/"/>
     <property name="java.vm.vendor" value="Debian"/>
+    <property name="env.XDG_DATA_DIRS" value="/usr/local/share:/usr/share:/var/lib/snapd/desktop"/>
     <property name="user.timezone" value="America/El_Salvador"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="11"/>
@@ -109,13 +110,13 @@
     <property name="com.sun.aas.hostName" value="Notebook"/>
     <property name="env.GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1"/>
     <property name="JMS_PROVIDER_PORT" value="7676"/>
-    <property name="env.NB_DESKTOP_STARTUP_ID" value="Notebook;1652029182;338323;1426_TIME202783"/>
+    <property name="env.NB_DESKTOP_STARTUP_ID" value="Notebook;1653927265;39573;1687_TIME4508381"/>
     <property name="javax.net.ssl.keyStorePassword" value="changeit"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.awt.headless" value="true"/>
     <property name="com.ctc.wstx.returnNullForDefaultNamespace" value="true"/>
     <property name="org.omg.CORBA.ORBClass" value="com.sun.corba.ee.impl.orb.ORBImpl"/>
-    <property name="surefire.real.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter6300054079245067502.jar"/>
+    <property name="surefire.real.class.path" value="/home/crisagui/NetBeansProjects/Baches/target/surefire/surefirebooter2396736306620326574.jar"/>
     <property name="eclipselink.security.usedoprivileged" value="true"/>
     <property name="env.LANGUAGE" value="es_SV:es"/>
     <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
@@ -123,49 +124,49 @@
     <property name="org.glassfish.additionalOSGiBundlesToStart" value="org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="5.16.14"/>
-    <property name="com.sun.aas.installRootURI" value="file:/tmp/gfembed835867623391004339tmp/"/>
-    <property name="java.endorsed.dirs" value="/tmp/gfembed835867623391004339tmp/modules/endorsed:/tmp/gfembed835867623391004339tmp/lib/endorsed"/>
+    <property name="com.sun.aas.installRootURI" value="file:/tmp/gfembed1733841136453709728tmp/"/>
+    <property name="java.endorsed.dirs" value="/tmp/gfembed1733841136453709728tmp/modules/endorsed:/tmp/gfembed1733841136453709728tmp/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="env.XDG_SESSION_ID" value="3"/>
+    <property name="env.XDG_SESSION_ID" value="4"/>
     <property name="osgi.shell.telnet.maxconn" value="1"/>
     <property name="felix.fileinstall.bundles.startTransient" value="true"/>
-    <property name="com.sun.aas.configRoot" value="/tmp/gfembed835867623391004339tmp/config"/>
+    <property name="com.sun.aas.configRoot" value="/tmp/gfembed1733841136453709728tmp/config"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="env.KDE_SESSION_UID" value="1000"/>
     <property name="env.KDE_APPLICATIONS_AS_SCOPE" value="1"/>
     <property name="env.SHELL" value="/bin/bash"/>
     <property name="com.sun.aas.javaRoot" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="maven.ext.class.path" value="/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
-    <property name="javax.net.ssl.keyStore" value="/tmp/gfembed835867623391004339tmp/config/keystore.jks"/>
+    <property name="javax.net.ssl.keyStore" value="/tmp/gfembed1733841136453709728tmp/config/keystore.jks"/>
     <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
     <property name="env.GTK_MODULES" value="gail:atk-bridge"/>
-    <property name="java.security.auth.login.config" value="/tmp/gfembed835867623391004339tmp/config/login.conf"/>
+    <property name="java.security.auth.login.config" value="/tmp/gfembed1733841136453709728tmp/config/login.conf"/>
     <property name="felix.fileinstall.disableConfigSave" value="false"/>
-    <property name="env.MAVEN_CMD_LINE_ARGS" value=" -Dmaven.ext.class.path=/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar install"/>
     <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-11"/>
     <property name="env.M2_HOME" value="/home/crisagui/netbeans-12.6/netbeans/java/maven"/>
-    <property name="catalina.home" value="/tmp/gfembed835867623391004339tmp"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value=" -Dmaven.ext.class.path=/home/crisagui/netbeans-12.6/netbeans/java/maven-nblib/netbeans-eventspy.jar install"/>
+    <property name="catalina.home" value="/tmp/gfembed1733841136453709728tmp"/>
     <property name="user.dir" value="/home/crisagui/NetBeansProjects/Baches"/>
     <property name="os.arch" value="amd64"/>
     <property name="javax.management.builder.initial" value="com.sun.enterprise.v3.admin.AppServerMBeanServerBuilder"/>
     <property name="osgi.shell.telnet.port" value="6666"/>
-    <property name="catalina.base" value="/tmp/gfembed835867623391004339tmp"/>
-    <property name="env.DESKTOP_SESSION" value="plasma"/>
+    <property name="catalina.base" value="/tmp/gfembed1733841136453709728tmp"/>
     <property name="env.XDG_CURRENT_DESKTOP" value="KDE"/>
+    <property name="env.DESKTOP_SESSION" value="plasma"/>
     <property name="env.MAVEN_PROJECTBASEDIR" value="/home/crisagui/NetBeansProjects/Baches"/>
     <property name="glassfish.version" value="Undefined Product Name - define product and version info in config/branding  0.0.0  (build 0)"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vm.version" value="11.0.15+10-post-Debian-1deb11u1"/>
     <property name="javax.security.jacc.PolicyConfigurationFactory.provider" value="com.sun.enterprise.security.provider.PolicyConfigurationFactoryImpl"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-11-openjdk-amd64/lib/ext:/usr/lib/jvm/java-11-openjdk-amd64/jre/lib/ext:/tmp/gfembed835867623391004339tmp/lib/ext"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-11-openjdk-amd64/lib/ext:/usr/lib/jvm/java-11-openjdk-amd64/jre/lib/ext:/tmp/gfembed1733841136453709728tmp/lib/ext"/>
     <property name="env.GTK2_RC_FILES" value="/etc/gtk-2.0/gtkrc:/home/crisagui/.gtkrc-2.0:/home/crisagui/.config/gtkrc-2.0"/>
     <property name="java.class.version" value="55.0"/>
     <property name="env.USER" value="crisagui"/>
     <property name="org.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection" value="true"/>
     <property name="env.QT_AUTO_SCREEN_SCALE_FACTOR" value="0"/>
   </properties>
-  <testcase name="testActualizar" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.977">
-    <system-out><![CDATA[75dfebe8-1226-4441-aae0-6ff6a29f6046.war:
+  <testcase name="testActualizar" classname="com.mycompany.baches.control.TipoObjetoIT" time="1.017">
+    <system-out><![CDATA[8d1d8b14-6881-4920-be43-2aead9d3153b.war:
 /WEB-INF/
 /WEB-INF/classes/
 /WEB-INF/classes/com/
@@ -187,112 +188,112 @@
 /WEB-INF/classes/META-INF/sql/
 /WEB-INF/classes/META-INF/sql/datos.sql
 /WEB-INF/beans.xml
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/Connection conn0 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #4 to mem:h2
-2022-05-08 20:31:35 jdbc[4]: 
+2022-05-30 15:00:05 database: connecting session #4 to mem:h2
+2022-05-30 15:00:05 jdbc[4]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[4]: 
+2022-05-30 15:00:05 jdbc[4]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[4]: 
+2022-05-30 15:00:05 jdbc[4]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[4]: 
+2022-05-30 15:00:05 jdbc[4]: 
 /**/Connection conn1 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #5 to mem:h2
-2022-05-08 20:31:35 jdbc[5]: 
+2022-05-30 15:00:05 database: connecting session #5 to mem:h2
+2022-05-30 15:00:05 jdbc[5]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[5]: 
+2022-05-30 15:00:05 jdbc[5]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[5]: 
+2022-05-30 15:00:05 jdbc[5]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[5]: 
+2022-05-30 15:00:05 jdbc[5]: 
 /**/Connection conn2 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #6 to mem:h2
-2022-05-08 20:31:35 jdbc[6]: 
+2022-05-30 15:00:05 database: connecting session #6 to mem:h2
+2022-05-30 15:00:05 jdbc[6]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[6]: 
+2022-05-30 15:00:05 jdbc[6]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[6]: 
+2022-05-30 15:00:05 jdbc[6]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[6]: 
+2022-05-30 15:00:05 jdbc[6]: 
 /**/Connection conn3 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #7 to mem:h2
-2022-05-08 20:31:35 jdbc[7]: 
+2022-05-30 15:00:05 database: connecting session #7 to mem:h2
+2022-05-30 15:00:05 jdbc[7]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[7]: 
+2022-05-30 15:00:05 jdbc[7]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[7]: 
+2022-05-30 15:00:05 jdbc[7]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[7]: 
+2022-05-30 15:00:05 jdbc[7]: 
 /**/Connection conn4 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #8 to mem:h2
-2022-05-08 20:31:35 jdbc[8]: 
+2022-05-30 15:00:05 database: connecting session #8 to mem:h2
+2022-05-30 15:00:05 jdbc[8]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[8]: 
+2022-05-30 15:00:05 jdbc[8]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[8]: 
+2022-05-30 15:00:05 jdbc[8]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[8]: 
+2022-05-30 15:00:05 jdbc[8]: 
 /**/Connection conn5 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #9 to mem:h2
-2022-05-08 20:31:35 jdbc[9]: 
+2022-05-30 15:00:05 database: connecting session #9 to mem:h2
+2022-05-30 15:00:05 jdbc[9]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[9]: 
+2022-05-30 15:00:05 jdbc[9]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[9]: 
+2022-05-30 15:00:05 jdbc[9]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[9]: 
+2022-05-30 15:00:05 jdbc[9]: 
 /**/Connection conn6 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 database: connecting session #10 to mem:h2
-2022-05-08 20:31:35 jdbc[10]: 
+2022-05-30 15:00:05 database: connecting session #10 to mem:h2
+2022-05-30 15:00:05 jdbc[10]: 
 /*SQL */SET DB_CLOSE_DELAY 1;
-2022-05-08 20:31:35 jdbc[10]: 
+2022-05-30 15:00:05 jdbc[10]: 
 /*SQL */SET TRACE_LEVEL_SYSTEM_OUT 3;
-2022-05-08 20:31:35 jdbc[10]: 
+2022-05-30 15:00:05 jdbc[10]: 
 /*SQL */SET TRACE_LEVEL_FILE 3;
-2022-05-08 20:31:35 jdbc[10]: 
+2022-05-30 15:00:05 jdbc[10]: 
 /**/Connection conn7 = DriverManager.getConnection("jdbc:h2:mem:h2;TRACE_LEVEL_FILE=3;TRACE_LEVEL_SYSTEM_OUT=3;DB_CLOSE_DELAY=1", "SA", "");
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/DatabaseMetaData dbMeta0 = conn0.getMetaData();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/ResultSet rs0 = dbMeta0.getClientInfoProperties();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/rs0.next();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/rs0.close();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/DatabaseMetaData dbMeta1 = conn0.getMetaData();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/dbMeta1.getDatabaseProductName();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/dbMeta1.getDatabaseProductVersion();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/dbMeta1.getDatabaseMajorVersion();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/DatabaseMetaData dbMeta2 = conn0.getMetaData();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/dbMeta2.getDriverName();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:05 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep0 = conn0.prepareStatement("SELECT 1 FROM public.estado", 1003, 1007);
-2022-05-08 20:31:35 jdbc[3]: exception
+2022-05-30 15:00:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ESTADO" no encontrada
 Table "ESTADO" not found; SQL statement:
 SELECT 1 FROM public.estado [42102-200]
@@ -498,49 +499,49 @@ SELECT 1 FROM public.estado [42102-200]
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep1 = conn0.prepareStatement("SELECT 1", 1003, 1007);
-2022-05-08 20:31:35 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@3d1674f]
-2022-05-08 20:31:35 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@3d1674f
-2022-05-08 20:31:35 jdbc[3]: Table      :     potential plan item cost 1 index dual index
-2022-05-08 20:31:35 jdbc[3]: Plan       :   best plan item cost 1 index dual index
-2022-05-08 20:31:35 jdbc[3]: Plan       : plan cost 2
-2022-05-08 20:31:35 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@36f94733]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@36f94733
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 2
+2022-05-30 15:00:06 jdbc[3]: 
 /**/ResultSet rs1 = prep1.executeQuery();
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1 t:8*/SELECT 1;
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL #:1 t:9*/SELECT 1;
+2022-05-30 15:00:06 jdbc[3]: 
 /**/rs1.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep1.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep2 = conn0.prepareStatement("CREATE TABLE public.estado (id_estado INTEGER IDENTITY NOT NULL, fecha_creacion DATE, nombre VARCHAR(155), observaciones VARCHAR(2147483647), PRIMARY KEY (id_estado))", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep2.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for ESTADO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for ESTADO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for ESTADO 
+2022-05-30 15:00:06 jdbc[3]: 
 /*SQL t:23*/CREATE TABLE public.estado (id_estado INTEGER IDENTITY NOT NULL, fecha_creacion DATE, nombre VARCHAR(155), observaciones VARCHAR(2147483647), PRIMARY KEY (id_estado));
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock ESTADO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep2.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep3 = conn0.prepareStatement("SELECT 1 FROM public.objeto", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: exception
+2022-05-30 15:00:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "OBJETO" no encontrada
 Table "OBJETO" not found; SQL statement:
 SELECT 1 FROM public.objeto [42102-200]
@@ -746,49 +747,49 @@ SELECT 1 FROM public.objeto [42102-200]
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep4 = conn0.prepareStatement("SELECT 1", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@21f5c0e8]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@21f5c0e8
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 2
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@59f3628e]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@59f3628e
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 2
+2022-05-30 15:00:06 jdbc[3]: 
 /**/ResultSet rs2 = prep4.executeQuery();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /*SQL #:1*/SELECT 1;
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/rs2.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep4.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep5 = conn0.prepareStatement("CREATE TABLE public.objeto (id_objeto BIGINT IDENTITY NOT NULL, latitud NUMERIC(9,6), longitud NUMERIC(8,6), nombre VARCHAR(155), observaciones VARCHAR(2147483647), id_tipo_objeto INTEGER, PRIMARY KEY (id_objeto))", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep5.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for OBJETO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:19*/CREATE TABLE public.objeto (id_objeto BIGINT IDENTITY NOT NULL, latitud NUMERIC(9,6), longitud NUMERIC(8,6), nombre VARCHAR(155), observaciones VARCHAR(2147483647), id_tipo_objeto INTEGER, PRIMARY KEY (id_objeto));
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for OBJETO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for OBJETO 
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:14*/CREATE TABLE public.objeto (id_objeto BIGINT IDENTITY NOT NULL, latitud NUMERIC(9,6), longitud NUMERIC(8,6), nombre VARCHAR(155), observaciones VARCHAR(2147483647), id_tipo_objeto INTEGER, PRIMARY KEY (id_objeto));
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock OBJETO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep5.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep6 = conn0.prepareStatement("SELECT 1 FROM public.objeto_estado", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: exception
+2022-05-30 15:00:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "OBJETO_ESTADO" no encontrada
 Table "OBJETO_ESTADO" not found; SQL statement:
 SELECT 1 FROM public.objeto_estado [42102-200]
@@ -994,49 +995,49 @@ SELECT 1 FROM public.objeto_estado [42102-200]
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep7 = conn0.prepareStatement("SELECT 1", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@888da99]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@888da99
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 2
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@3f5a66de]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@3f5a66de
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 2
+2022-05-30 15:00:06 jdbc[3]: 
 /**/ResultSet rs3 = prep7.executeQuery();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /*SQL #:1*/SELECT 1;
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/rs3.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep7.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep8 = conn0.prepareStatement("CREATE TABLE public.objeto_estado (id_objeto_estado BIGINT IDENTITY NOT NULL, actual BOOLEAN, fecha_alcanzado DATE, observaciones VARCHAR(2147483647), id_estado INTEGER, id_objeto BIGINT, PRIMARY KEY (id_objeto_estado))", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep8.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:5*/CREATE TABLE public.objeto_estado (id_objeto_estado BIGINT IDENTITY NOT NULL, actual BOOLEAN, fecha_alcanzado DATE, observaciones VARCHAR(2147483647), id_estado INTEGER, id_objeto BIGINT, PRIMARY KEY (id_objeto_estado));
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for OBJETO_ESTADO 
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:23*/CREATE TABLE public.objeto_estado (id_objeto_estado BIGINT IDENTITY NOT NULL, actual BOOLEAN, fecha_alcanzado DATE, observaciones VARCHAR(2147483647), id_estado INTEGER, id_objeto BIGINT, PRIMARY KEY (id_objeto_estado));
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep8.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep9 = conn0.prepareStatement("SELECT 1 FROM public.ruta", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: exception
+2022-05-30 15:00:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "RUTA" no encontrada
 Table "RUTA" not found; SQL statement:
 SELECT 1 FROM public.ruta [42102-200]
@@ -1242,49 +1243,49 @@ SELECT 1 FROM public.ruta [42102-200]
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep10 = conn0.prepareStatement("SELECT 1", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@7a4b000]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@7a4b000
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 2
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@7c348f42]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@7c348f42
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 2
+2022-05-30 15:00:06 jdbc[3]: 
 /**/ResultSet rs4 = prep10.executeQuery();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /*SQL #:1*/SELECT 1;
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/rs4.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep10.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep11 = conn0.prepareStatement("CREATE TABLE public.ruta (id_ruta BIGINT IDENTITY NOT NULL, fecha_creacion DATE, nombre VARCHAR(2147483647), observaciones VARCHAR(2147483647), PRIMARY KEY (id_ruta))", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep11.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for RUTA 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:9*/CREATE TABLE public.ruta (id_ruta BIGINT IDENTITY NOT NULL, fecha_creacion DATE, nombre VARCHAR(2147483647), observaciones VARCHAR(2147483647), PRIMARY KEY (id_ruta));
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for RUTA 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for RUTA 
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:6*/CREATE TABLE public.ruta (id_ruta BIGINT IDENTITY NOT NULL, fecha_creacion DATE, nombre VARCHAR(2147483647), observaciones VARCHAR(2147483647), PRIMARY KEY (id_ruta));
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock RUTA 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep11.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep12 = conn0.prepareStatement("SELECT 1 FROM public.tipo_objeto", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: exception
+2022-05-30 15:00:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TIPO_OBJETO" no encontrada
 Table "TIPO_OBJETO" not found; SQL statement:
 SELECT 1 FROM public.tipo_objeto [42102-200]
@@ -1490,670 +1491,670 @@ SELECT 1 FROM public.tipo_objeto [42102-200]
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep13 = conn0.prepareStatement("SELECT 1", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@3a89e426]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@3a89e426
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 1 index dual index
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 2
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [DUAL:0:org.h2.table.DualTable@393a967]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter DUAL:0:org.h2.table.DualTable@393a967
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 1 index dual index
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 2
+2022-05-30 15:00:06 jdbc[3]: 
 /**/ResultSet rs5 = prep13.executeQuery();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /*SQL #:1*/SELECT 1;
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/rs5.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep13.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep14 = conn0.prepareStatement("CREATE TABLE public.tipo_objeto (id_tipo_objeto INTEGER IDENTITY NOT NULL, activo BOOLEAN, fecha_creacion DATE, PRIMARY KEY (id_tipo_objeto))", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep14.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:5*/CREATE TABLE public.tipo_objeto (id_tipo_objeto INTEGER IDENTITY NOT NULL, activo BOOLEAN, fecha_creacion DATE, PRIMARY KEY (id_tipo_objeto));
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for TIPO_OBJETO 
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:7*/CREATE TABLE public.tipo_objeto (id_tipo_objeto INTEGER IDENTITY NOT NULL, activo BOOLEAN, fecha_creacion DATE, PRIMARY KEY (id_tipo_objeto));
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock TIPO_OBJETO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep14.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep15 = conn0.prepareStatement("ALTER TABLE public.objeto ADD CONSTRAINT FK_objeto_id_tipo_objeto FOREIGN KEY (id_tipo_objeto) REFERENCES public.tipo_objeto (id_tipo_objeto)", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep15.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for OBJETO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for OBJETO 
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [P]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter P
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 228.7
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [C]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter C
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for OBJETO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for OBJETO 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [P]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter P
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 228.7
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [C]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter C
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
     ID_TIPO_OBJETO
 FROM PUBLIC.OBJETO
     /* PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8 */
 WHERE ID_TIPO_OBJETO IS NOT NULL
 ORDER BY 1
 /* index sorted */
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,202
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:55*/ALTER TABLE public.objeto ADD CONSTRAINT FK_objeto_id_tipo_objeto FOREIGN KEY (id_tipo_objeto) REFERENCES public.tipo_objeto (id_tipo_objeto);
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,202
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:65*/ALTER TABLE public.objeto ADD CONSTRAINT FK_objeto_id_tipo_objeto FOREIGN KEY (id_tipo_objeto) REFERENCES public.tipo_objeto (id_tipo_objeto);
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock OBJETO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep15.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep16 = conn0.prepareStatement("ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_objeto FOREIGN KEY (id_objeto) REFERENCES public.objeto (id_objeto)", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep16.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [P]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter P
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 20,220 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 228.7
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [C]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter C
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for OBJETO_ESTADO 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [P]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter P
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 20,220 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 228.7
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [C]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter C
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
     ID_OBJETO
 FROM PUBLIC.OBJETO_ESTADO
     /* PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4 */
 WHERE ID_OBJETO IS NOT NULL
 ORDER BY 1
 /* index sorted */
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,202
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:17*/ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_objeto FOREIGN KEY (id_objeto) REFERENCES public.objeto (id_objeto);
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 10,202
+2022-05-30 15:00:06 jdbc[3]: 
+/*SQL t:18*/ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_objeto FOREIGN KEY (id_objeto) REFERENCES public.objeto (id_objeto);
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep16.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/PreparedStatement prep17 = conn0.prepareStatement("ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_estado FOREIGN KEY (id_estado) REFERENCES public.estado (id_estado)", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:06 jdbc[3]: 
 /**/prep17.executeUpdate();
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 exclusive write lock added for OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [P]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter P
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_7
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_7
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 228.7
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [C]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter C
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
-2022-05-08 20:31:36 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,201
-2022-05-08 20:31:36 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for SYS 
+2022-05-30 15:00:06 lock: 3 exclusive write lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:06 lock: 3 exclusive write lock added for OBJETO_ESTADO 
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [P]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter P
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_7
+2022-05-30 15:00:06 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_7
+2022-05-30 15:00:06 jdbc[3]: Plan       : plan cost 228.7
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [C]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter C
+2022-05-30 15:00:06 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:06 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:06 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:07 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:07 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:07 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 11,010 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:07 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:07 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO_ESTADO]
+2022-05-30 15:00:07 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO_ESTADO
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 12,210 index PUBLIC.PRIMARY_KEY_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 22,220 index PUBLIC.FK_OBJETO_ESTADO_ID_OBJETO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Table      :     potential plan item cost 12,020 index PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4
+2022-05-30 15:00:07 jdbc[3]: Plan       :   best plan item cost 10,200 index PUBLIC.OBJETO_ESTADO.tableScan
+2022-05-30 15:00:07 jdbc[3]: Plan       : plan cost 10,201
+2022-05-30 15:00:07 jdbc[3]: Plan       :   best plan item cost 10,201 index SELECT
     ID_ESTADO
 FROM PUBLIC.OBJETO_ESTADO
     /* PUBLIC.FK_OBJETO_ESTADO_ID_ESTADO_INDEX_4 */
 WHERE ID_ESTADO IS NOT NULL
 ORDER BY 1
 /* index sorted */
-2022-05-08 20:31:36 jdbc[3]: Plan       : plan cost 10,202
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL t:16*/ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_estado FOREIGN KEY (id_estado) REFERENCES public.estado (id_estado);
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: Plan       : plan cost 10,202
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL t:18*/ALTER TABLE public.objeto_estado ADD CONSTRAINT FK_objeto_estado_id_estado FOREIGN KEY (id_estado) REFERENCES public.estado (id_estado);
+2022-05-30 15:00:07 lock: 3 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 exclusive write lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep17.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep18 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (false,'2022-3-01');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep18.executeUpdate();
-2022-05-08 20:31:36 lock: 1 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 1 exclusive write lock requesting for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock added for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:13*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (false,'2022-3-01');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep18.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep19 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-02');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep19.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-02');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1 t:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-02');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep19.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep20 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep20.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep20.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep21 = conn0.prepareStatement("INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep21.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1 t:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1*/INSERT INTO tipo_objeto (activo, fecha_creacion) VALUES (true,'2022-3-03');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep21.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep22 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('1.3845285035','5.3456798788','Insertado desde datos.sql');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep22.executeUpdate();
-2022-05-08 20:31:36 lock: 1 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 1 exclusive write lock requesting for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock added for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:4*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('1.3845285035','5.3456798788','Insertado desde datos.sql');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep22.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep23 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('2.5392273491','3.5559444444','Insertado desde datos.sql');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep23.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('2.5392273491','3.5559444444','Insertado desde datos.sql');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep23.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep24 = conn0.prepareStatement("INSERT INTO objeto (longitud, latitud,nombre) VALUES('3.1234987654','1.0873023588','Insertado desde datos.sql');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep24.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO objeto (longitud, latitud,nombre) VALUES('3.1234987654','1.0873023588','Insertado desde datos.sql');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep24.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep25 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep25.executeUpdate();
-2022-05-08 20:31:36 lock: 1 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1 t:2*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 1 exclusive write lock requesting for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock added for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1 t:3*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep25.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep26 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(false,'2022-05-02');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep26.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(false,'2022-05-02');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep26.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep27 = conn0.prepareStatement("INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep27.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for OBJETO_ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for OBJETO_ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO objeto_estado(actual,fecha_alcanzado) VALUES(true,'2022-05-02');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock OBJETO_ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock OBJETO_ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep27.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep28 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep28.executeUpdate();
-2022-05-08 20:31:36 lock: 1 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for RUTA 
-2022-05-08 20:31:36 lock: 3 shared read lock ok RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1 t:2*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 1 exclusive write lock requesting for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock added for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for RUTA 
+2022-05-30 15:00:07 lock: 3 shared read lock ok RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1 t:22*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep28.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep29 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep29.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for RUTA 
-2022-05-08 20:31:36 lock: 3 shared read lock ok RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for RUTA 
+2022-05-30 15:00:07 lock: 3 shared read lock ok RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep29.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep30 = conn0.prepareStatement("INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep30.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for RUTA 
-2022-05-08 20:31:36 lock: 3 shared read lock ok RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock RUTA 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for RUTA 
+2022-05-30 15:00:07 lock: 3 shared read lock ok RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1 t:2*/INSERT INTO ruta(nombre,fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock RUTA 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep30.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep31 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-01');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep31.executeUpdate();
-2022-05-08 20:31:36 lock: 1 exclusive write lock requesting for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock added for SYS 
-2022-05-08 20:31:36 lock: 1 exclusive write lock unlock SYS 
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
-/*SQL #:1 t:2*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-01');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 1 exclusive write lock requesting for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock added for SYS 
+2022-05-30 15:00:07 lock: 1 exclusive write lock unlock SYS 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
+/*SQL #:1 t:5*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-01');
+2022-05-30 15:00:07 lock: 3 shared read lock unlock ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep31.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep32 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-02');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep32.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-02');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep32.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/PreparedStatement prep33 = conn0.prepareStatement("INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');", 1003, 1007);
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep33.executeUpdate();
-2022-05-08 20:31:36 lock: 3 shared read lock requesting for ESTADO 
-2022-05-08 20:31:36 lock: 3 shared read lock ok ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock requesting for ESTADO 
+2022-05-30 15:00:07 lock: 3 shared read lock ok ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /*SQL #:1 t:1*/INSERT INTO estado (nombre, fecha_creacion) VALUES('Insertado desde datos.sql','2022-05-03');
-2022-05-08 20:31:36 lock: 3 shared read lock unlock ESTADO 
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 lock: 3 shared read lock unlock ESTADO 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/prep33.close();
-2022-05-08 20:31:36 jdbc[3]: 
+2022-05-30 15:00:07 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
 modificar
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep34 = conn0.prepareStatement("SELECT id_tipo_objeto, activo, fecha_creacion FROM public.tipo_objeto WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:42 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
-2022-05-08 20:31:42 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
-2022-05-08 20:31:42 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:42 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:42 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:42 jdbc[3]: Plan       : plan cost 228.7
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
+2022-05-30 15:00:14 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:14 jdbc[3]: Plan       :   best plan item cost 227.7 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:14 jdbc[3]: Plan       : plan cost 228.7
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep34.setInt(1, 4);
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSet rs6 = prep34.executeQuery();
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL l:96 #:1*/SELECT id_tipo_objeto, activo, fecha_creacion FROM public.tipo_objeto WHERE (id_tipo_objeto = ?) {1: 4};
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSetMetaData rsMeta0 = rs6.getMetaData();
-2022-05-08 20:31:42 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL #:1*/CALL DATABASE();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta0.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta0.getColumnType(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.getInt(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta0.getColumnType(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.getBoolean(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta0.getColumnType(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.getDate(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs6.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep34.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep35 = conn0.prepareStatement("SELECT id_objeto, latitud, longitud, nombre, observaciones, id_tipo_objeto FROM public.objeto WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:43 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
-2022-05-08 20:31:43 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 10,230 index PUBLIC.OBJETO.tableScan
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.PRIMARY_KEY_8
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 280 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:43 jdbc[3]: Plan       :   best plan item cost 277.2 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
-2022-05-08 20:31:43 jdbc[3]: Plan       : plan cost 278.2
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.OBJETO]
+2022-05-30 15:00:14 jdbc[3]: Plan       :   for table filter PUBLIC.OBJETO
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,230 index PUBLIC.OBJETO.tableScan
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.PRIMARY_KEY_8
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 280 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:14 jdbc[3]: Plan       :   best plan item cost 277.2 index PUBLIC.FK_OBJETO_ID_TIPO_OBJETO_INDEX_8
+2022-05-30 15:00:14 jdbc[3]: Plan       : plan cost 278.2
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep35.setInt(1, 4);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSet rs7 = prep35.executeQuery();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL l:120*/SELECT id_objeto, latitud, longitud, nombre, observaciones, id_tipo_objeto FROM public.objeto WHERE (id_tipo_objeto = ?) {1: 4};
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSetMetaData rsMeta1 = rs7.getMetaData();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta1.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs7.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs7.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep35.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setAutoCommit(false);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep36 = conn0.prepareStatement("UPDATE public.tipo_objeto SET activo = ?, fecha_creacion = ? WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep36.setBoolean(1, false);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep36.setNull(2, 91);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep36.setInt(3, 4);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep36.executeUpdate();
-2022-05-08 20:31:43 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:43 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:14 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL l:87 #:1 t:7*/UPDATE public.tipo_objeto SET activo = ?, fecha_creacion = ? WHERE (id_tipo_objeto = ?) {1: FALSE, 2: NULL, 3: 4};
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep36.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:43 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:43 jdbc[3]: 
-/*SQL */COMMIT;
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:14 jdbc[3]: 
+/*SQL t:1*/COMMIT;
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setAutoCommit(true);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL */COMMIT;
 ]]></system-out>
-    <system-err><![CDATA[may. 08, 2022 8:31:03 P. M. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findH2Client
+    <system-err><![CDATA[may. 30, 2022 2:59:31 P. M. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findH2Client
 INFORMACIÓN: Cannot find h2db client jar file, h2 jdbc driver will not be available by default.
-may. 08, 2022 8:31:04 P. M. org.hibernate.validator.internal.util.Version <clinit>
+may. 30, 2022 2:59:32 P. M. org.hibernate.validator.internal.util.Version <clinit>
 INFO: HV000001: Hibernate Validator null
-may. 08, 2022 8:31:10 P. M. com.hazelcast.instance.impl.HazelcastInstanceFactory
+may. 30, 2022 2:59:37 P. M. com.hazelcast.instance.impl.HazelcastInstanceFactory
 ADVERTENCIA: Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-may. 08, 2022 8:31:10 P. M. com.hazelcast.instance.AddressPicker
+may. 30, 2022 2:59:38 P. M. com.hazelcast.instance.AddressPicker
 INFORMACIÓN: [LOCAL] [development] [4.2] Using bind address: 0.0.0.0/0.0.0.0:4900
-may. 08, 2022 8:31:10 P. M. com.hazelcast.instance.AddressPicker
-INFORMACIÓN: [LOCAL] [development] [4.2] Using public address: /192.168.0.17:4900
-may. 08, 2022 8:31:10 P. M. com.hazelcast.system
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] Hazelcast 4.2 (20210324 - 405cfd1) starting at [192.168.0.17]:4900
-may. 08, 2022 8:31:12 P. M. com.hazelcast.instance.impl.Node
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] Using Discovery SPI
-may. 08, 2022 8:31:13 P. M. com.hazelcast.internal.diagnostics.Diagnostics
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-may. 08, 2022 8:31:13 P. M. com.hazelcast.core.LifecycleService
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:4900 is STARTING
-may. 08, 2022 8:31:13 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:5900 is added to the blacklist.
-may. 08, 2022 8:31:13 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:5900 is added to the blacklist.
-may. 08, 2022 8:31:14 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:5900 is added to the blacklist.
-may. 08, 2022 8:31:14 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:5900 is added to the blacklist.
-may. 08, 2022 8:31:14 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:5900 is added to the blacklist.
-may. 08, 2022 8:31:14 P. M. com.hazelcast.internal.cluster.ClusterService
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] 
+may. 30, 2022 2:59:38 P. M. com.hazelcast.instance.AddressPicker
+INFORMACIÓN: [LOCAL] [development] [4.2] Using public address: /192.168.0.11:4900
+may. 30, 2022 2:59:38 P. M. com.hazelcast.system
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] Hazelcast 4.2 (20210324 - 405cfd1) starting at [192.168.0.11]:4900
+may. 30, 2022 2:59:40 P. M. com.hazelcast.instance.impl.Node
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] Using Discovery SPI
+may. 30, 2022 2:59:41 P. M. com.hazelcast.internal.diagnostics.Diagnostics
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+may. 30, 2022 2:59:41 P. M. com.hazelcast.core.LifecycleService
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:4900 is STARTING
+may. 30, 2022 2:59:41 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:5900 is added to the blacklist.
+may. 30, 2022 2:59:41 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:5900 is added to the blacklist.
+may. 30, 2022 2:59:42 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:5900 is added to the blacklist.
+may. 30, 2022 2:59:42 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:5900 is added to the blacklist.
+may. 30, 2022 2:59:42 P. M. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:5900 is added to the blacklist.
+may. 30, 2022 2:59:42 P. M. com.hazelcast.internal.cluster.ClusterService
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] 
 
 Members {size:1, ver:1} [
-	Member [192.168.0.17]:4900 - 4c27a17f-a4b8-45e5-ab9c-404f613987e2 this
+	Member [192.168.0.11]:4900 - 08fb8d74-d1b2-47b6-ab9f-2aa52e2dff51 this
 ]
 
-may. 08, 2022 8:31:14 P. M. com.hazelcast.internal.jmx.ManagementService
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] Hazelcast JMX agent enabled.
-may. 08, 2022 8:31:14 P. M. com.hazelcast.core.LifecycleService
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] [192.168.0.17]:4900 is STARTED
-may. 08, 2022 8:31:15 P. M. com.hazelcast.internal.partition.impl.PartitionStateManager
-INFORMACIÓN: [192.168.0.17]:4900 [development] [4.2] Initializing cluster partition table arrangement...
-may. 08, 2022 8:31:15 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+may. 30, 2022 2:59:42 P. M. com.hazelcast.internal.jmx.ManagementService
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] Hazelcast JMX agent enabled.
+may. 30, 2022 2:59:42 P. M. com.hazelcast.core.LifecycleService
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] [192.168.0.11]:4900 is STARTED
+may. 30, 2022 2:59:43 P. M. com.hazelcast.internal.partition.impl.PartitionStateManager
+INFORMACIÓN: [192.168.0.11]:4900 [development] [4.2] Initializing cluster partition table arrangement...
+may. 30, 2022 2:59:43 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFORMACIÓN: Hazelcast Instance Bound to JNDI at payara/Hazelcast
-may. 08, 2022 8:31:15 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+may. 30, 2022 2:59:43 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFORMACIÓN: JSR107 Caching Provider Bound to JNDI at payara/CachingProvider
-may. 08, 2022 8:31:15 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+may. 30, 2022 2:59:43 P. M. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFORMACIÓN: JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager
-may. 08, 2022 8:31:15 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFORMACIÓN: Network Listener http-listener started in: 15ms - bound to [/0.0.0.0:8181]
-may. 08, 2022 8:31:15 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+may. 30, 2022 2:59:44 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFORMACIÓN: Network Listener http-listener started in: 21ms - bound to [/0.0.0.0:8181]
+may. 30, 2022 2:59:44 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
 INFORMACIÓN: Network Listener https-listener started in: 4ms - bound to [/0.0.0.0:8182]
-may. 08, 2022 8:31:16 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFORMACIÓN: Network Listener admin-listener started in: 3ms - bound to [/0.0.0.0:4848]
-may. 08, 2022 8:31:16 P. M. com.sun.enterprise.v3.services.impl.GrizzlyService postConstruct
-INFORMACIÓN: Grizzly 2.4.4 started in: 7,064ms - bound to [http-listener:8181, https-listener:8182, admin-listener:4848]
-may. 08, 2022 8:31:17 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFORMACIÓN: Network Listener iiop-service started in: 3ms - bound to [/0.0.0.0:3700]
-may. 08, 2022 8:31:17 P. M. fish.payara.nucleus.cluster.PayaraCluster logClusterStatus
+may. 30, 2022 2:59:44 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFORMACIÓN: Network Listener admin-listener started in: 4ms - bound to [/0.0.0.0:4848]
+may. 30, 2022 2:59:44 P. M. com.sun.enterprise.v3.services.impl.GrizzlyService postConstruct
+INFORMACIÓN: Grizzly 2.4.4 started in: 7,581ms - bound to [http-listener:8181, https-listener:8182, admin-listener:4848]
+may. 30, 2022 2:59:46 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFORMACIÓN: Network Listener iiop-service started in: 5ms - bound to [/0.0.0.0:3700]
+may. 30, 2022 2:59:46 P. M. fish.payara.nucleus.cluster.PayaraCluster logClusterStatus
 INFORMACIÓN: Data Grid Status 
 Payara Data Grid State: DG Version: 4 DG Name: development DG Size: 1
 Instances: {
- DataGrid: development Name: server Lite: false This: true UUID: 4c27a17f-a4b8-45e5-ab9c-404f613987e2 Address: /192.168.0.17:4900
+ DataGrid: development Name: server Lite: false This: true UUID: 08fb8d74-d1b2-47b6-ab9f-2aa52e2dff51 Address: /192.168.0.11:4900
 }
-may. 08, 2022 8:31:17 P. M. com.sun.enterprise.v3.server.AppServerStartup postStartupJob
-INFORMACIÓN: Undefined Product Name - define product and version info in config/branding  0.0.0  (0) startup time : Embedded (5,816ms), startup services(11,306ms), total(17,122ms)
-may. 08, 2022 8:31:17 P. M. fish.payara.nucleus.notification.NotificationService bootstrapNotificationService
+may. 30, 2022 2:59:46 P. M. com.sun.enterprise.v3.server.AppServerStartup postStartupJob
+INFORMACIÓN: Undefined Product Name - define product and version info in config/branding  0.0.0  (0) startup time : Embedded (5,650ms), startup services(12,473ms), total(18,123ms)
+may. 30, 2022 2:59:46 P. M. fish.payara.nucleus.notification.NotificationService bootstrapNotificationService
 INFORMACIÓN: Payara Notification Service bootstrapped.
-may. 08, 2022 8:31:18 P. M. org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread startConnector
+may. 30, 2022 2:59:47 P. M. org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread startConnector
 INFORMACIÓN: JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:8686/jndi/rmi://0.0.0.0:8686/jmxrmi
-may. 08, 2022 8:31:18 P. M. com.sun.enterprise.connectors.jms.util.JmsRaUtil getInstalledMqVersion
-ADVERTENCIA: Check for a new version of MQ installation failed : /tmp/gfembed835867623391004339tmp/lib/install/applications/jmsra/../imqjmsra.rar:/tmp/gfembed835867623391004339tmp/lib/install/applications/jmsra/imqjmsra.rar
-may. 08, 2022 8:31:18 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFORMACIÓN: Network Listener JMS_PROXY_default_JMS_host started in: 7ms - bound to [/0.0.0.0:7676]
-may. 08, 2022 8:31:19 P. M. fish.payara.arquillian.container.payara.embedded.PayaraContainer executeCommand
-INFORMACIÓN: command add-resources parameters[Ljava.lang.String;@12e00fa2 result: PlainTextActionReporterSUCCESSDescription: add-resources AdminCommandnull
+may. 30, 2022 2:59:48 P. M. com.sun.enterprise.connectors.jms.util.JmsRaUtil getInstalledMqVersion
+ADVERTENCIA: Check for a new version of MQ installation failed : /tmp/gfembed1733841136453709728tmp/lib/install/applications/jmsra/../imqjmsra.rar:/tmp/gfembed1733841136453709728tmp/lib/install/applications/jmsra/imqjmsra.rar
+may. 30, 2022 2:59:48 P. M. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFORMACIÓN: Network Listener JMS_PROXY_default_JMS_host started in: 2ms - bound to [/0.0.0.0:7676]
+may. 30, 2022 2:59:48 P. M. fish.payara.arquillian.container.payara.embedded.PayaraContainer executeCommand
+INFORMACIÓN: command add-resources parameters[Ljava.lang.String;@4bbabd2f result: PlainTextActionReporterSUCCESSDescription: add-resources AdminCommandnull
     JDBC connection pool baches created successfully.
     JDBC resource jdbc/baches created successfully.
 
-may. 08, 2022 8:31:24 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 2:59:53 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:24 P. M. org.glassfish.enterprise.iiop.api.GlassFishORBHelper postConstruct
+may. 30, 2022 2:59:54 P. M. org.glassfish.enterprise.iiop.api.GlassFishORBHelper postConstruct
 INFORMACIÓN: GlassFishORBFactory service initialized.
-may. 08, 2022 8:31:24 P. M. com.sun.logging.LogDomains getResourceBundle
+may. 30, 2022 2:59:54 P. M. com.sun.logging.LogDomains getResourceBundle
 INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.container.ejb for class com.sun.ejb.containers.EjbAsyncInvocationManager using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
-may. 08, 2022 8:31:24 P. M. com.sun.logging.LogDomains getResourceBundle
+may. 30, 2022 2:59:54 P. M. com.sun.logging.LogDomains getResourceBundle
 INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.container.ejb for class com.sun.ejb.base.io.EJBObjectOutputStreamHandler using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2225,7 +2226,7 @@ KeyIdentifier [
 00F0: 40 8C 6A FC 7E 42 38 40   64 12 F7 9E 81 E1 93 2E  @.j..B8@d.......
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2297,7 +2298,7 @@ KeyIdentifier [
 00F0: 40 8C 6A FC 7E 42 38 40   64 12 F7 9E 81 E1 93 2E  @.j..B8@d.......
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2421,7 +2422,67 @@ KeyIdentifier [
 01F0: 92 0A 61 35 3F DD FE 86   F4 BC E0 1A 71 B3 62 A6  ..a5?.......q.b.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+ADVERTENCIA: The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 27620593608073140957439440929253438012688864718977347268272053725994928948867769687165112265058896553974818505070806430256424431940072485024407486246475597522063246121214348496326377341879755851197260401080498544606788760407243324127929930612201002157618691487713632251700065187865963692723720912135393438861302779432180613616167225206519123176430362410262429702404863434904116727055203524505580952824336979641923534005571504410997292144760317953739063178352809680844232935574095508445145910310675421726257114605895831426222686272114090063230017292595425393719031924942422176213538487957041730136782988405751614792953
+  public exponent: 65537
+  Validity: [From: Mon May 20 22:00:00 CST 2002,
+               To: Fri May 20 22:00:00 CST 2022]
+  Issuer: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  SerialNumber: [    023456]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 35 E3 29 6A E5 2F 5D 54   8E 29 50 94 9F 99 1A 14  5.)j./]T.)P.....
+0010: E4 8F 78 2A 62 94 A2 27   67 9E D0 CF 1A 5E 47 E9  ..x*b..'g....^G.
+0020: C1 B2 A4 CF DD 41 1A 05   4E 9B 4B EE 4A 6F 55 52  .....A..N.K.JoUR
+0030: B3 24 A1 37 0A EB 64 76   2A 2E 2C F3 FD 3B 75 90  .$.7..dv*.,..;u.
+0040: BF FA 71 D8 C7 3D 37 D2   B5 05 95 62 B9 A6 DE 89  ..q..=7....b....
+0050: 3D 36 7B 38 77 48 97 AC   A6 20 8F 2E A6 C9 0C C2  =6.8wH... ......
+0060: B2 99 45 00 C7 CE 11 51   22 22 E0 A5 EA B6 15 48  ..E....Q"".....H
+0070: 09 64 EA 5E 4F 74 F7 05   3E C7 8A 52 0C DB 15 B4  .d.^Ot..>..R....
+0080: BD 6D 9B E5 C6 B1 54 68   A9 E3 69 90 B6 9A A5 0F  .m....Th..i.....
+0090: B8 B9 3F 20 7D AE 4A B5   B8 9C E4 1D B6 AB E6 94  ..? ..J.........
+00A0: A5 C1 C7 83 AD DB F5 27   87 0E 04 6C D5 FF DD A0  .......'...l....
+00B0: 5D ED 87 52 B7 2B 15 02   AE 39 A6 6A 74 E9 DA C4  ]..R.+...9.jt...
+00C0: E7 BC 4D 34 1E A9 5C 4D   33 5F 92 09 2F 88 66 5D  ..M4..\M3_../.f]
+00D0: 77 97 C7 1D 76 13 A9 D5   E5 F1 16 09 11 35 D5 AC  w...v........5..
+00E0: DB 24 71 70 2C 98 56 0B   D9 17 B4 D1 E3 51 2B 5E  .$qp,.V......Q+^
+00F0: 75 E8 D5 D0 DC 4F 34 ED   C2 05 66 80 A1 CB E6 33  u....O4...f....3
+
+]
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2524,7 +2585,7 @@ KeyIdentifier [
 00F0: 89 4D D4 EC C5 E2 E6 7A   D0 36 23 8A 4A 74 36 F9  .M.....z.6#.Jt6.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2638,7 +2699,7 @@ KeyIdentifier [
 01F0: 7A 7F 23 69 04 AD B2 02   29 D6 12 C8 A4 C6 A1 2D  z.#i....)......-
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2696,7 +2757,7 @@ KeyIdentifier [
 00F0: D8 91 0B 04 8E 07 DB 29   B6 0A EE 9D 82 35 35 10  .......).....55.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2768,7 +2829,7 @@ KeyIdentifier [
 00F0: 4E 11 C8 21 E0 B3 11 91   65 DB B4 A6 88 38 CE 55  N..!....e....8.U
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2825,7 +2886,7 @@ KeyIdentifier [
 00F0: 32 6E DB FC 4F 25 9F D9   32 C7 96 5A 70 AC DF 4C  2n..O%..2..Zp..L
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2897,7 +2958,7 @@ KeyIdentifier [
 00F0: 40 8C 6A FC 7E 42 38 40   64 12 F7 9E 81 E1 93 2E  @.j..B8@d.......
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -2954,7 +3015,7 @@ KeyIdentifier [
 00F0: 32 6E DB FC 4F 25 9F D9   32 C7 96 5A 70 AC DF 4C  2n..O%..2..Zp..L
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3011,7 +3072,67 @@ KeyIdentifier [
 00F0: 32 6E DB FC 4F 25 9F D9   32 C7 96 5A 70 AC DF 4C  2n..O%..2..Zp..L
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+ADVERTENCIA: The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 27620593608073140957439440929253438012688864718977347268272053725994928948867769687165112265058896553974818505070806430256424431940072485024407486246475597522063246121214348496326377341879755851197260401080498544606788760407243324127929930612201002157618691487713632251700065187865963692723720912135393438861302779432180613616167225206519123176430362410262429702404863434904116727055203524505580952824336979641923534005571504410997292144760317953739063178352809680844232935574095508445145910310675421726257114605895831426222686272114090063230017292595425393719031924942422176213538487957041730136782988405751614792953
+  public exponent: 65537
+  Validity: [From: Mon May 20 22:00:00 CST 2002,
+               To: Fri May 20 22:00:00 CST 2022]
+  Issuer: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  SerialNumber: [    023456]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 35 E3 29 6A E5 2F 5D 54   8E 29 50 94 9F 99 1A 14  5.)j./]T.)P.....
+0010: E4 8F 78 2A 62 94 A2 27   67 9E D0 CF 1A 5E 47 E9  ..x*b..'g....^G.
+0020: C1 B2 A4 CF DD 41 1A 05   4E 9B 4B EE 4A 6F 55 52  .....A..N.K.JoUR
+0030: B3 24 A1 37 0A EB 64 76   2A 2E 2C F3 FD 3B 75 90  .$.7..dv*.,..;u.
+0040: BF FA 71 D8 C7 3D 37 D2   B5 05 95 62 B9 A6 DE 89  ..q..=7....b....
+0050: 3D 36 7B 38 77 48 97 AC   A6 20 8F 2E A6 C9 0C C2  =6.8wH... ......
+0060: B2 99 45 00 C7 CE 11 51   22 22 E0 A5 EA B6 15 48  ..E....Q"".....H
+0070: 09 64 EA 5E 4F 74 F7 05   3E C7 8A 52 0C DB 15 B4  .d.^Ot..>..R....
+0080: BD 6D 9B E5 C6 B1 54 68   A9 E3 69 90 B6 9A A5 0F  .m....Th..i.....
+0090: B8 B9 3F 20 7D AE 4A B5   B8 9C E4 1D B6 AB E6 94  ..? ..J.........
+00A0: A5 C1 C7 83 AD DB F5 27   87 0E 04 6C D5 FF DD A0  .......'...l....
+00B0: 5D ED 87 52 B7 2B 15 02   AE 39 A6 6A 74 E9 DA C4  ]..R.+...9.jt...
+00C0: E7 BC 4D 34 1E A9 5C 4D   33 5F 92 09 2F 88 66 5D  ..M4..\M3_../.f]
+00D0: 77 97 C7 1D 76 13 A9 D5   E5 F1 16 09 11 35 D5 AC  w...v........5..
+00E0: DB 24 71 70 2C 98 56 0B   D9 17 B4 D1 E3 51 2B 5E  .$qp,.V......Q+^
+00F0: 75 E8 D5 D0 DC 4F 34 ED   C2 05 66 80 A1 CB E6 33  u....O4...f....3
+
+]
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3068,7 +3189,7 @@ KeyIdentifier [
 00F0: DF 2C 93 8A FF 81 8C 0F   0F 59 21 19 57 BD 55 9A  .,.......Y!.W.U.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3104,7 +3225,7 @@ BasicConstraints:[
 0070: 5E 73 2D 31 4A 63 A0 74   F2 1F 8B 22 D2 29 3E EB  ^s-1Jc.t...".)>.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3207,7 +3328,7 @@ KeyIdentifier [
 00F0: 89 4D D4 EC C5 E2 E6 7A   D0 36 23 8A 4A 74 36 F9  .M.....z.6#.Jt6.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3265,7 +3386,7 @@ KeyIdentifier [
 00F0: D8 91 0B 04 8E 07 DB 29   B6 0A EE 9D 82 35 35 10  .......).....55.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3301,7 +3422,7 @@ BasicConstraints:[
 0070: 30 14 38 AF 28 CA FC B1   50 19 19 09 AC 89 49 D3  0.8.(...P.....I.
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3373,7 +3494,7 @@ KeyIdentifier [
 00F0: 4E 11 C8 21 E0 B3 11 91   65 DB B4 A6 88 38 CE 55  N..!....e....8.U
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3409,7 +3530,7 @@ BasicConstraints:[
 0070: A5 E0 87 7F E1 9A 5A E1   60 DC 64 23 3C 42 2E 4D  ......Z.`.d#<B.M
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
 ADVERTENCIA: The SSL certificate has expired: [
 [
   Version: V3
@@ -3445,51 +3566,51 @@ BasicConstraints:[
 0070: 10 5A C6 65 64 9A EB 2C   F5 03 4F D6 48 62 FB 2E  .Z.ed..,..O.Hb..
 
 ]
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.SecurityLifecycle <init>
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.SecurityLifecycle <init>
 INFORMACIÓN: Java security manager is disabled.
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.SecurityLifecycle onInitialization
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.SecurityLifecycle onInitialization
 INFORMACIÓN: Entering Security Startup Service.
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.PolicyLoader installPolicyFromClassName
+may. 30, 2022 2:59:54 P. M. com.sun.enterprise.security.PolicyLoader installPolicyFromClassName
 INFORMACIÓN: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.
-may. 08, 2022 8:31:25 P. M. com.sun.enterprise.security.SecurityLifecycle onInitialization
+may. 30, 2022 2:59:55 P. M. com.sun.enterprise.security.SecurityLifecycle onInitialization
 INFORMACIÓN: Security Service(s) started successfully.
-may. 08, 2022 8:31:26 P. M. com.sun.enterprise.web.WebContainer createHttpListener
+may. 30, 2022 2:59:56 P. M. com.sun.enterprise.web.WebContainer createHttpListener
 INFORMACIÓN: Created HTTP listener http-listener on host/port 0.0.0.0:8181
-may. 08, 2022 8:31:26 P. M. com.sun.enterprise.web.WebContainer createHttpListener
+may. 30, 2022 2:59:56 P. M. com.sun.enterprise.web.WebContainer createHttpListener
 INFORMACIÓN: Created HTTP listener https-listener on host/port 0.0.0.0:8182
-may. 08, 2022 8:31:26 P. M. com.sun.enterprise.web.WebContainer createHttpListener
+may. 30, 2022 2:59:56 P. M. com.sun.enterprise.web.WebContainer createHttpListener
 INFORMACIÓN: Created HTTP listener admin-listener on host/port 0.0.0.0:4848
-may. 08, 2022 8:31:26 P. M. com.sun.enterprise.web.WebContainer createHosts
+may. 30, 2022 2:59:56 P. M. com.sun.enterprise.web.WebContainer createHosts
 INFORMACIÓN: Created virtual server server
-may. 08, 2022 8:31:26 P. M. com.sun.enterprise.web.WebContainer createHosts
+may. 30, 2022 2:59:56 P. M. com.sun.enterprise.web.WebContainer createHosts
 INFORMACIÓN: Created virtual server __asadmin
-may. 08, 2022 8:31:27 P. M. com.sun.enterprise.web.WebContainer loadSystemDefaultWebModules
+may. 30, 2022 2:59:57 P. M. com.sun.enterprise.web.WebContainer loadSystemDefaultWebModules
 INFORMACIÓN: Virtual server server loaded default web module 
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:30 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
+may. 30, 2022 3:00:00 P. M. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
 INFORMACIÓN: visiting unvisited references
-may. 08, 2022 8:31:34 P. M. org.eclipse.persistence.session./file:/tmp/gfembed835867623391004339tmp/applications/75dfebe8-1226-4441-aae0-6ff6a29f6046/WEB-INF/classes/_Baches_PU
+may. 30, 2022 3:00:04 P. M. org.eclipse.persistence.session./file:/tmp/gfembed1733841136453709728tmp/applications/8d1d8b14-6881-4920-be43-2aead9d3153b/WEB-INF/classes/_Baches_PU
 INFORMACIÓN: EclipseLink, version: Eclipse Persistence Services - 2.7.9.payara-p1
-may. 08, 2022 8:31:36 P. M. com.sun.logging.LogDomains getResourceBundle
+may. 30, 2022 3:00:07 P. M. com.sun.logging.LogDomains getResourceBundle
 INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.util for class com.sun.appserv.ClassLoaderUtil using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
-may. 08, 2022 8:31:36 P. M. com.sun.appserv.ClassLoaderUtil releaseLoader
+may. 30, 2022 3:00:07 P. M. com.sun.appserv.ClassLoaderUtil releaseLoader
 ADVERTENCIA: classloaderutil.errorReleasingLoader
 java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.ArrayList jdk.internal.loader.URLClassPath.loaders accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @f2a0b8e
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:340)
@@ -3639,369 +3760,369 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 
-may. 08, 2022 8:31:36 P. M. org.jboss.weld.bootstrap.WeldStartup <clinit>
+may. 30, 2022 3:00:07 P. M. org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.8 (Final)
-may. 08, 2022 8:31:37 P. M. com.sun.logging.LogDomains getResourceBundle
+may. 30, 2022 3:00:07 P. M. com.sun.logging.LogDomains getResourceBundle
 INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.container.ejb for class org.glassfish.ejb.security.application.EjbSecurityComponentInvocationHandler using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
-may. 08, 2022 8:31:37 P. M. com.sun.logging.LogDomains getResourceBundle
+may. 30, 2022 3:00:08 P. M. com.sun.logging.LogDomains getResourceBundle
 INFORMACIÓN: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.container.ejb for class com.sun.ejb.EJBUtils using jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69
-may. 08, 2022 8:31:37 P. M. com.sun.ejb.containers.BaseContainer initializeHome
-INFORMACIÓN: Portable JNDI names for EJB tipoObjetoBean: [java:global/75dfebe8-1226-4441-aae0-6ff6a29f6046/tipoObjetoBean!com.mycompany.baches.control.tipoObjetoBean, java:global/75dfebe8-1226-4441-aae0-6ff6a29f6046/tipoObjetoBean]
-may. 08, 2022 8:31:41 P. M. fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl postConstruct
+may. 30, 2022 3:00:08 P. M. com.sun.ejb.containers.BaseContainer initializeHome
+INFORMACIÓN: Portable JNDI names for EJB tipoObjetoBean: [java:global/8d1d8b14-6881-4920-be43-2aead9d3153b/tipoObjetoBean!com.mycompany.baches.control.tipoObjetoBean, java:global/8d1d8b14-6881-4920-be43-2aead9d3153b/tipoObjetoBean]
+may. 30, 2022 3:00:12 P. M. fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl postConstruct
 INFORMACIÓN: Clustered CDI Event bus initialized
-may. 08, 2022 8:31:41 P. M. org.glassfish.soteria.servlet.SamRegistrationInstaller onStartup
-INFORMACIÓN: Initializing Soteria null for context '/75dfebe8-1226-4441-aae0-6ff6a29f6046'
-may. 08, 2022 8:31:41 P. M. com.sun.enterprise.web.WebApplication start
-INFORMACIÓN: Loading application [75dfebe8-1226-4441-aae0-6ff6a29f6046] at [/75dfebe8-1226-4441-aae0-6ff6a29f6046]
-may. 08, 2022 8:31:42 P. M. org.glassfish.deployment.admin.DeployCommand execute
-INFORMACIÓN: 75dfebe8-1226-4441-aae0-6ff6a29f6046 was successfully deployed in 19,170 milliseconds.
+may. 30, 2022 3:00:12 P. M. org.glassfish.soteria.servlet.SamRegistrationInstaller onStartup
+INFORMACIÓN: Initializing Soteria null for context '/8d1d8b14-6881-4920-be43-2aead9d3153b'
+may. 30, 2022 3:00:12 P. M. com.sun.enterprise.web.WebApplication start
+INFORMACIÓN: Loading application [8d1d8b14-6881-4920-be43-2aead9d3153b] at [/8d1d8b14-6881-4920-be43-2aead9d3153b]
+may. 30, 2022 3:00:13 P. M. org.glassfish.deployment.admin.DeployCommand execute
+INFORMACIÓN: 8d1d8b14-6881-4920-be43-2aead9d3153b was successfully deployed in 20,662 milliseconds.
 ]]></system-err>
   </testcase>
-  <testcase name="testFindAll" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.177">
+  <testcase name="testFindAll" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.196">
     <system-out><![CDATA[FindAll
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep37 = conn0.prepareStatement("SELECT id_tipo_objeto, activo, fecha_creacion FROM public.tipo_objeto", 1003, 1007);
-2022-05-08 20:31:43 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
-2022-05-08 20:31:43 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:43 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:43 jdbc[3]: Plan       :   best plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:43 jdbc[3]: Plan       : plan cost 10,241
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
+2022-05-30 15:00:14 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:14 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:14 jdbc[3]: Plan       :   best plan item cost 10,240 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:14 jdbc[3]: Plan       : plan cost 10,241
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSet rs8 = prep37.executeQuery();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL #:4*/SELECT id_tipo_objeto, activo, fecha_creacion FROM public.tipo_objeto;
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSetMetaData rsMeta2 = rs8.getMetaData();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta2.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getInt(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getBoolean(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.wasNull();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getDate(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getInt(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getBoolean(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getDate(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getInt(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getBoolean(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getDate(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getInt(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getBoolean(2);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.wasNull();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.getDate(3);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs8.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep37.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
 La lista posee 4
 ]]></system-out>
   </testcase>
-  <testcase name="testCrear" classname="com.mycompany.baches.control.TipoObjetoIT" time="2.131">
+  <testcase name="testCrear" classname="com.mycompany.baches.control.TipoObjetoIT" time="2.143">
     <system-out><![CDATA[Crear
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setAutoCommit(false);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep38 = conn0.prepareStatement("INSERT INTO public.tipo_objeto (activo, fecha_creacion) VALUES (?, ?)", 1003, 1007);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep38.setBoolean(1, true);
-2022-05-08 20:31:43 jdbc[3]: 
-/**/prep38.setDate(2, Date.valueOf("2022-05-08"));
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
+/**/prep38.setDate(2, Date.valueOf("2022-05-30"));
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep38.executeUpdate();
-2022-05-08 20:31:43 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:43 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:43 jdbc[3]: 
-/*SQL l:69 #:1*/INSERT INTO public.tipo_objeto (activo, fecha_creacion) VALUES (?, ?) {1: TRUE, 2: DATE '2022-05-08'};
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:14 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:14 jdbc[3]: 
+/*SQL l:69 #:1*/INSERT INTO public.tipo_objeto (activo, fecha_creacion) VALUES (?, ?) {1: TRUE, 2: DATE '2022-05-30'};
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep38.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/PreparedStatement prep39 = conn0.prepareStatement("CALL IDENTITY()", 1003, 1007);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSet rs9 = prep39.executeQuery();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL #:1*/CALL IDENTITY();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSetMetaData rsMeta3 = rs9.getMetaData();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta3.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta3.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta3.getColumnLabel(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta3.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/ResultSetMetaData rsMeta4 = rs9.getMetaData();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta4.getColumnCount();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs9.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rsMeta4.getColumnType(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs9.getObject(1);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs9.next();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/rs9.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/prep39.close();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:43 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL */COMMIT;
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.setAutoCommit(true);
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:43 jdbc[3]: 
+2022-05-30 15:00:14 jdbc[3]: 
 /*SQL */COMMIT;
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/PreparedStatement prep40 = conn0.prepareStatement("SELECT COUNT(id_tipo_objeto) FROM public.tipo_objeto", 1003, 1007);
-2022-05-08 20:31:45 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
-2022-05-08 20:31:45 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:45 jdbc[3]: Plan       :   best plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:45 jdbc[3]: Plan       : plan cost 10,251
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
+2022-05-30 15:00:16 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:16 jdbc[3]: Plan       :   best plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:16 jdbc[3]: Plan       : plan cost 10,251
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSet rs10 = prep40.executeQuery();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /*SQL #:1*/SELECT COUNT(id_tipo_objeto) FROM public.tipo_objeto;
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSetMetaData rsMeta5 = rs10.getMetaData();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rsMeta5.getColumnCount();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs10.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rsMeta5.getColumnType(1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs10.getLong(1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs10.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs10.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep40.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
 Total: 5
 ]]></system-out>
   </testcase>
-  <testcase name="testfindRange" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.082">
+  <testcase name="testfindRange" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.126">
     <system-out><![CDATA[findRange
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/PreparedStatement prep41 = conn0.prepareStatement("SELECT id_tipo_objeto AS a1, activo AS a2, fecha_creacion AS a3 FROM public.tipo_objeto LIMIT ? OFFSET ?", 1003, 1007);
-2022-05-08 20:31:45 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
-2022-05-08 20:31:45 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:45 jdbc[3]: Plan       :   best plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:45 jdbc[3]: Plan       : plan cost 10,251
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: Plan       : calculate cost for plan [PUBLIC.TIPO_OBJETO]
+2022-05-30 15:00:16 jdbc[3]: Plan       :   for table filter PUBLIC.TIPO_OBJETO
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 10,260 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:16 jdbc[3]: Plan       :   best plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:16 jdbc[3]: Plan       : plan cost 10,251
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep41.setInt(1, 3);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep41.setInt(2, 1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSet rs11 = prep41.executeQuery();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /*SQL l:104 #:3*/SELECT id_tipo_objeto AS a1, activo AS a2, fecha_creacion AS a3 FROM public.tipo_objeto LIMIT ? OFFSET ? {1: 3, 2: 1};
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSetMetaData rsMeta6 = rs11.getMetaData();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rsMeta6.getColumnCount();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getInt(1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getBoolean(2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getDate(3);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getInt(1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getBoolean(2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getDate(3);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getInt(1);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getBoolean(2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.wasNull();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.getDate(3);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs11.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep41.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
 Se encontraron 3
 ]]></system-out>
   </testcase>
-  <testcase name="testfindById" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.07">
+  <testcase name="testfindById" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.079">
     <system-out><![CDATA[findById
 Se encontro el resultado 4
 ]]></system-out>
   </testcase>
-  <testcase name="testEliminar" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.096">
+  <testcase name="testEliminar" classname="com.mycompany.baches.control.TipoObjetoIT" time="0.127">
     <system-out><![CDATA[eliminar
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/PreparedStatement prep42 = conn0.prepareStatement("SELECT id_objeto, latitud, longitud, nombre, observaciones, id_tipo_objeto FROM public.objeto WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep42.setInt(1, 2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSet rs12 = prep42.executeQuery();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /*SQL l:120*/SELECT id_objeto, latitud, longitud, nombre, observaciones, id_tipo_objeto FROM public.objeto WHERE (id_tipo_objeto = ?) {1: 2};
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/ResultSetMetaData rsMeta7 = rs12.getMetaData();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rsMeta7.getColumnCount();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs12.next();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/rs12.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep42.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/conn0.setAutoCommit(false);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/PreparedStatement prep43 = conn0.prepareStatement("UPDATE public.tipo_objeto SET activo = ?, fecha_creacion = ? WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep43.setNull(1, 16);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep43.setNull(2, 91);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep43.setInt(3, 2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep43.executeUpdate();
-2022-05-08 20:31:45 lock: 3 shared read lock requesting for TIPO_OBJETO 
-2022-05-08 20:31:45 lock: 3 shared read lock ok TIPO_OBJETO 
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 lock: 3 shared read lock requesting for TIPO_OBJETO 
+2022-05-30 15:00:16 lock: 3 shared read lock ok TIPO_OBJETO 
+2022-05-30 15:00:16 jdbc[3]: 
 /*SQL l:87 #:1 t:1*/UPDATE public.tipo_objeto SET activo = ?, fecha_creacion = ? WHERE (id_tipo_objeto = ?) {1: NULL, 2: NULL, 3: 2};
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep43.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/PreparedStatement prep44 = conn0.prepareStatement("DELETE FROM public.tipo_objeto WHERE (id_tipo_objeto = ?)", 1003, 1007);
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
-2022-05-08 20:31:45 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 10,250 index PUBLIC.TIPO_OBJETO.tableScan
+2022-05-30 15:00:16 jdbc[3]: Table      :     potential plan item cost 230 index PUBLIC.PRIMARY_KEY_1
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep44.setInt(1, 2);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:16 jdbc[3]: 
 /**/prep44.executeUpdate();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /*SQL l:57 #:1 t:2*/DELETE FROM public.tipo_objeto WHERE (id_tipo_objeto = ?) {1: 2};
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /**/prep44.close();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:45 lock: 3 shared read lock unlock TIPO_OBJETO 
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 lock: 3 shared read lock unlock TIPO_OBJETO 
+2022-05-30 15:00:17 jdbc[3]: 
 /*SQL */COMMIT;
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /**/conn0.setAutoCommit(true);
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /**/conn0.commit();
-2022-05-08 20:31:45 jdbc[3]: 
+2022-05-30 15:00:17 jdbc[3]: 
 /*SQL */COMMIT;
 ]]></system-out>
   </testcase>
-  <testcase name="testContar" classname="com.mycompany.baches.control.TipoObjetoIT" time="2.112">
+  <testcase name="testContar" classname="com.mycompany.baches.control.TipoObjetoIT" time="2.089">
     <system-out><![CDATA[Contar
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/conn0.getClientInfo();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/PreparedStatement prep45 = conn0.prepareStatement("SELECT COUNT(id_tipo_objeto) FROM public.tipo_objeto", 1003, 1007);
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/ResultSet rs13 = prep45.executeQuery();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /*SQL #:1*/SELECT COUNT(id_tipo_objeto) FROM public.tipo_objeto;
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/ResultSetMetaData rsMeta8 = rs13.getMetaData();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/conn0.getCatalog();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rsMeta8.getColumnCount();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rs13.next();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rsMeta8.getColumnType(1);
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rs13.getLong(1);
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rs13.next();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/rs13.close();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/prep45.close();
-2022-05-08 20:31:47 jdbc[3]: 
+2022-05-30 15:00:19 jdbc[3]: 
 /**/conn0.setClientInfo(properties);
 Se encontraron 4 registros
 ]]></system-out>

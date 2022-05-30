@@ -67,7 +67,7 @@ public class TipoObjetoResourceIT {
         int resultadoEsperado = 200;
         Client cliente = ClientBuilder.newClient();
         WebTarget target = cliente.target(url.toString() + "resources/");
-        Response respuesta = target.path("tipoobjeto").request("application/json").get();
+        Response respuesta = target.path("tipoobjeto/findAll").request("application/json").get();
         assertEquals(resultadoEsperado, respuesta.getStatus());
         String totalTexto = respuesta.getHeaderString("Total-Registros");
         assertNotEquals(Integer.valueOf(0), Integer.valueOf(totalTexto));
@@ -116,7 +116,7 @@ public class TipoObjetoResourceIT {
         int resultadoEsperado = 200;
         Client cliente = ClientBuilder.newClient();
         WebTarget target = cliente.target(url.toString() + "resources/");
-        Response respuesta = target.path("tipoobjeto").request("application/json").post(Entity.entity(nuevo, MediaType.APPLICATION_JSON));
+        Response respuesta = target.path("tipoobjeto/crear").request("application/json").post(Entity.entity(nuevo, MediaType.APPLICATION_JSON));
         assertEquals(resultadoEsperado, respuesta.getStatus());
         String registro = respuesta.getHeaderString("Registro-Creado");
         assertNotEquals(null, registro);
@@ -141,7 +141,7 @@ public class TipoObjetoResourceIT {
         int resultadoEsperado = 200;
         Client cliente = ClientBuilder.newClient();
         WebTarget target = cliente.target(url.toString() + "resources/");
-        Response respuesta = target.path("tipoobjeto").request("application/json").put(Entity.entity(nuevo, MediaType.APPLICATION_JSON));
+        Response respuesta = target.path("tipoobjeto/modificar").request("application/json").put(Entity.entity(nuevo, MediaType.APPLICATION_JSON));
         assertEquals(resultadoEsperado, respuesta.getStatus());
         String registro = respuesta.getHeaderString("Modificado");
         assertNotEquals(null, registro);

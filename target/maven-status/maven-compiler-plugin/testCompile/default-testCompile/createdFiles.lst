@@ -1,2 +1,7 @@
+com/mycompany/baches/resources/ObjetoEstadoResourceIT.class
+com/mycompany/baches/resources/ObjetoResourceIT.class
 com/mycompany/baches/control/TipoObjetoIT.class
+com/mycompany/baches/resources/EstadoResourceIT.class
 com/mycompany/baches/control/tipoObjetoBeanTest.class
+com/mycompany/baches/resources/RutaResourceIT.class
+com/mycompany/baches/resources/TipoObjetoResourceIT.class

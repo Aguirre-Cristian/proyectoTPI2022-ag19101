@@ -32,6 +32,7 @@ public class ObjetoEstadoResource {
     ObjetoEstadoBean toBean;
     
     @GET
+    @Path("findAll")
     @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
         List<ObjetoEstado> registros = toBean.findAll();
@@ -40,7 +41,9 @@ public class ObjetoEstadoResource {
                 .header("Total-Registros", total)
                 .build();
     }
-
+    
+    @GET
+    @Path("findRange")
     public Response findRange(
             @QueryParam(value = "first")
             @DefaultValue(value = "0") int first,
@@ -60,6 +63,7 @@ public class ObjetoEstadoResource {
     }
 
     @POST
+    @Path("crear")
     public Response Crear(ObjetoEstado nuevo) {
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -68,6 +72,7 @@ public class ObjetoEstadoResource {
     }
 
     @PUT
+    @Path("modificar")
     public Response Modificar(ObjetoEstado modificar) {
         toBean.actualizar(modificar);
         return Response.ok(modificar)
