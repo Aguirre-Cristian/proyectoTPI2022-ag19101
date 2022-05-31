@@ -20,47 +20,45 @@ stage('SCM') {
     
       stages {
         stage('Cloning Git') {
-            steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/Aguirre-Cristian/proyectoTPI2022-ag19101.git']]])       
-            }
         }
     
     // Construyendo imágenes de Docker
     stage('Building image') {
-      steps{
+      //steps{
         script {
           dockerImage = docker.build registry
-        }
+        //}
       }
     }
     
      // Subir imágenes de Docker a Docker Hub
     stage('Upload Image') {
-     steps{    
+     //steps{    
          script {
             docker.withRegistry( '', registryCredential ) {
             dockerImage.push()
             }
         }
-      }
+      //}
     }
     
      // Detención de contenedores Docker para una ejecución más limpia de Docker
      stage('docker stop container') {
-         steps {
+         //steps {
             sh 'docker ps -f name=mypythonappContainer -q | xargs --no-run-if-empty docker container stop'
             sh 'docker container ls -a -fname=mypythonappContainer -q | xargs -r docker container rm'
-         }
+         //}
        }
     
     
     // Ejecutando el contenedor Docker, asegúrese de que el puerto 8096 esté abierto en 
     stage('Docker Run') {
-     steps{
+     //steps{
          script {
             dockerImage.run("-p 8080:8080 --rm --name baches1.0")
          }
-      }
+      //}
     }
   }
 }
