@@ -26,7 +26,7 @@ import javax.ws.rs.core.Response;
  * @author crisagui
  */
 
-@Path("tipoobjeto")
+@Path("/tipoobjeto")
 @RequestScoped
 
 public class tipoObjetoResource {
@@ -34,6 +34,7 @@ public class tipoObjetoResource {
     tipoObjetoBean toBean;
     
     @GET
+    @Path("/findAll")
     @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
         List<TipoObjeto> registros = toBean.findAll();

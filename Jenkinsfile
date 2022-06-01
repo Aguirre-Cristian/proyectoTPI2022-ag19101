@@ -10,13 +10,7 @@ pipeline {
     }
     
     stages {
-    stage('SonarQube Analysis') {
-        steps{
-            withSonarQubeEnv(installationName: 'Sonarqube 9.4.0', credentialsId: 'sonarqubejenkins') {
-                sh "mvn clean package sonar:sonar"
-            }
-        }
-    }
+    
     //  Construyendo imágenes de Docker 
     stage('Building image') {
       steps{
