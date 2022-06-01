@@ -1,5 +1,6 @@
 pipeline {
     agent any 
+    
     environment {
         //una vez que se registre en Docker Hub, use ese ID de usuario aquí
         registry = "crisagui/baches:1.0"
@@ -9,6 +10,13 @@ pipeline {
     }
     
     stages {
+    stage('SonarQube Analysis') {
+        steps{
+            withSonarQubeEnv(installationName: 'Sonarqube 9.4.0', credentialsId: 'sonarqubejenkins') {
+                sh "mvn clean verify sonar:sonar"
+            }
+        }
+    }
     //  Construyendo imágenes de Docker 
     stage('Building image') {
       steps{
