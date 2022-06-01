@@ -7,3 +7,4 @@ RUN echo "create-jdbc-connection-pool --datasourceclassname org.postgresql.ds.PG
 && echo "create-jdbc-resource --connectionpoolid baches-pool jdbc/baches" >> $PREBOOT_COMMANDS
 RUN echo "deploy $PAYARA_DIR/target/Baches-1.0-SNAPSHOT.war" >> $POSTBOOT_COMMANDS
 COPY target/Baches-1.0-SNAPSHOT.war $PAYARA_DIR
+EXPOSE 8080
