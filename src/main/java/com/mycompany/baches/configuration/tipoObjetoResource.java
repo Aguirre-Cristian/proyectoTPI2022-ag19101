@@ -34,7 +34,7 @@ public class tipoObjetoResource {
     tipoObjetoBean toBean;
     
     @GET
-    @Path("findAll")
+    @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
         List<TipoObjeto> registros = toBean.findAll();
         Long total = toBean.contar();
@@ -65,7 +65,6 @@ public class tipoObjetoResource {
     } 
     
     @POST
-    @Path("crear")
     public Response Crear(TipoObjeto nuevo){
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -74,7 +73,6 @@ public class tipoObjetoResource {
     }
     
     @PUT
-    @Path("modificar")
     public Response Modificar(TipoObjeto modificar){
         toBean.actualizar(modificar);
         return Response.ok(modificar)
