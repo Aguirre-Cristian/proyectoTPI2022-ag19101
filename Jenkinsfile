@@ -31,7 +31,7 @@ pipeline {
     stage('Docker Run') {
      steps{
          script {
-             dockerImage.run(docker run --docker run --rm -p 8080:8080 --add-host db:192.168.0.16 baches:2.0)
+             dockerImage.run(d'ocker run --docker run --rm -p 8080:8080 --add-host db:192.168.0.16 baches:2.0')
          }
       }
     }
