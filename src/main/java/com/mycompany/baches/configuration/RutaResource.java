@@ -63,7 +63,6 @@ public class RutaResource {
     } 
     
     @POST
-    @Path("crear")
     public Response Crear(Ruta nuevo){
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -72,7 +71,6 @@ public class RutaResource {
     }
     
     @PUT
-    @Path("modificar")
     public Response Modificar(Ruta modificar){
         toBean.actualizar(modificar);
         return Response.ok(modificar)

@@ -35,12 +35,13 @@ import javax.ws.rs.core.Response;
     
     @GET
     @Path(&quot;findAll&quot;)
+    @Produces({&quot;application/json; charset=UTF-8&quot;})
     public Response findAll() {
-<span class="nc" id="L39">        List&lt;TipoObjeto&gt; registros = toBean.findAll();</span>
-<span class="nc" id="L40">        Long total = toBean.contar();</span>
-<span class="nc" id="L41">        return Response.ok(registros)</span>
-<span class="nc" id="L42">                .header(&quot;Total-Registros&quot;, total)</span>
-<span class="nc" id="L43">                .build();</span>
+<span class="nc" id="L40">        List&lt;TipoObjeto&gt; registros = toBean.findAll();</span>
+<span class="nc" id="L41">        Long total = toBean.contar();</span>
+<span class="nc" id="L42">        return Response.ok(registros)</span>
+<span class="nc" id="L43">                .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L44">                .build();</span>
     }
     
     @GET
@@ -51,21 +52,20 @@ import javax.ws.rs.core.Response;
             @DefaultValue(value = &quot;0&quot;) int first,
             @QueryParam(value = &quot;pagesize&quot;)
             @DefaultValue(value = &quot;50&quot;) int pageSize){
-<span class="nc" id="L54">        List&lt;TipoObjeto&gt; registros = toBean.findRange(first, pageSize);</span>
-<span class="nc" id="L55">        Long total = toBean.contar();</span>
-<span class="nc" id="L56">        return Response.ok(registros)</span>
-<span class="nc" id="L57">            .header(&quot;Total-Registros&quot;, total)</span>
-<span class="nc" id="L58">                .build();</span>
+<span class="nc" id="L55">        List&lt;TipoObjeto&gt; registros = toBean.findRange(first, pageSize);</span>
+<span class="nc" id="L56">        Long total = toBean.contar();</span>
+<span class="nc" id="L57">        return Response.ok(registros)</span>
+<span class="nc" id="L58">            .header(&quot;Total-Registros&quot;, total)</span>
+<span class="nc" id="L59">                .build();</span>
     }
     
     @GET
     @Path(&quot;contar&quot;)
     public CompletableFuture&lt;Long&gt; contar(){
-<span class="nc" id="L64">        return CompletableFuture.supplyAsync(toBean::contar); </span>
+<span class="nc" id="L65">        return CompletableFuture.supplyAsync(toBean::contar); </span>
     } 
     
     @POST
-    @Path(&quot;crear&quot;)
     public Response Crear(TipoObjeto nuevo){
 <span class="nc" id="L70">        toBean.crear(nuevo);</span>
 <span class="nc" id="L71">        return Response.ok(nuevo)</span>
@@ -74,22 +74,21 @@ import javax.ws.rs.core.Response;
     }
     
     @PUT
-    @Path(&quot;modificar&quot;)
     public Response Modificar(TipoObjeto modificar){
-<span class="nc" id="L79">        toBean.actualizar(modificar);</span>
-<span class="nc" id="L80">        return Response.ok(modificar)</span>
-<span class="nc" id="L81">                .header(&quot;Modificado&quot;, modificar)</span>
-<span class="nc" id="L82">                .build();</span>
+<span class="nc" id="L78">        toBean.actualizar(modificar);</span>
+<span class="nc" id="L79">        return Response.ok(modificar)</span>
+<span class="nc" id="L80">                .header(&quot;Modificado&quot;, modificar)</span>
+<span class="nc" id="L81">                .build();</span>
     }
     
     @DELETE
     @Path(&quot;{idTipoObjeto}&quot;)
     public Response Eliminar(@PathParam(&quot;idTipoObjeto&quot;) int id){
-<span class="nc" id="L88">        TipoObjeto registro = toBean.findById(id);</span>
-<span class="nc" id="L89">        toBean.eliminar(registro);</span>
-<span class="nc" id="L90">        return Response.ok(registro)</span>
-<span class="nc" id="L91">            .header(&quot;ID-eliminado&quot;,id)</span>
-<span class="nc" id="L92">                    .build();</span>
+<span class="nc" id="L87">        TipoObjeto registro = toBean.findById(id);</span>
+<span class="nc" id="L88">        toBean.eliminar(registro);</span>
+<span class="nc" id="L89">        return Response.ok(registro)</span>
+<span class="nc" id="L90">            .header(&quot;ID-eliminado&quot;,id)</span>
+<span class="nc" id="L91">                    .build();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

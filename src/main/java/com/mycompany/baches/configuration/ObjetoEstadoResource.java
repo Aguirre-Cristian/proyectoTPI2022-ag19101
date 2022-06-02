@@ -63,7 +63,6 @@ public class ObjetoEstadoResource {
     }
 
     @POST
-    @Path("crear")
     public Response Crear(ObjetoEstado nuevo) {
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -72,7 +71,6 @@ public class ObjetoEstadoResource {
     }
 
     @PUT
-    @Path("modificar")
     public Response Modificar(ObjetoEstado modificar) {
         toBean.actualizar(modificar);
         return Response.ok(modificar)

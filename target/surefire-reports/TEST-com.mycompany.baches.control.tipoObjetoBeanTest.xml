@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.mycompany.baches.control.tipoObjetoBeanTest" time="13.105" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.mycompany.baches.control.tipoObjetoBeanTest" time="13.814" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-post-Debian-1deb11u1"/>
@@ -61,11 +61,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindById" time="3.44"/>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindRange" time="1.5"/>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindAll" time="0.129"/>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testEliminar" time="0.006"/>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testActualizar" time="0.007"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindRange" time="5.589"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindAll" time="0.114"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testFindById" time="0.067"/>
   <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testContar" time="8.014"/>
-  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testCrear" time="0.009"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testCrear" time="0.011"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testEliminar" time="0.009"/>
+  <testcase classname="com.mycompany.baches.control.tipoObjetoBeanTest" name="com.mycompany.baches.control.tipoObjetoBeanTest.testActualizar" time="0.01"/>
 </testsuite>

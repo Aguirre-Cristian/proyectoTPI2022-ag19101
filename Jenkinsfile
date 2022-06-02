@@ -14,9 +14,8 @@ pipeline {
     //  Construyendo imágenes de Docker 
     stage('Building image') {
       steps{
-        script {
-          dockerImage = docker.build registry
-        }
+        sh 'echo '
+        sh 'docker build -t baches:1.0 ./'
       }
     }
     

@@ -64,31 +64,29 @@ import javax.ws.rs.core.Response;
     }
 
     @POST
-    @Path(&quot;crear&quot;)
     public Response Crear(Estado nuevo) {
-<span class="nc" id="L69">        toBean.crear(nuevo);</span>
-<span class="nc" id="L70">        return Response.ok(nuevo)</span>
-<span class="nc" id="L71">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
-<span class="nc" id="L72">                .build();</span>
+<span class="nc" id="L68">        toBean.crear(nuevo);</span>
+<span class="nc" id="L69">        return Response.ok(nuevo)</span>
+<span class="nc" id="L70">                .header(&quot;Registro-Creado&quot;, nuevo)</span>
+<span class="nc" id="L71">                .build();</span>
     }
 
     @PUT
-    @Path(&quot;modificar&quot;)
     public Response Modificar(Estado modificar) {
-<span class="nc" id="L78">        toBean.actualizar(modificar);</span>
-<span class="nc" id="L79">        return Response.ok(modificar)</span>
-<span class="nc" id="L80">                .header(&quot;Modificado&quot;, modificar)</span>
-<span class="nc" id="L81">                .build();</span>
+<span class="nc" id="L76">        toBean.actualizar(modificar);</span>
+<span class="nc" id="L77">        return Response.ok(modificar)</span>
+<span class="nc" id="L78">                .header(&quot;Modificado&quot;, modificar)</span>
+<span class="nc" id="L79">                .build();</span>
     }
 
     @DELETE
     @Path(&quot;{idEstado}&quot;)
     public Response Eliminar(@PathParam(&quot;idEstado&quot;) int id) {
-<span class="nc" id="L87">        Estado registro = toBean.findById(id);</span>
-<span class="nc" id="L88">        toBean.eliminar(registro);</span>
-<span class="nc" id="L89">        return Response.ok(registro)</span>
-<span class="nc" id="L90">                .header(&quot;ID-eliminado&quot;, id)</span>
-<span class="nc" id="L91">                .build();</span>
+<span class="nc" id="L85">        Estado registro = toBean.findById(id);</span>
+<span class="nc" id="L86">        toBean.eliminar(registro);</span>
+<span class="nc" id="L87">        return Response.ok(registro)</span>
+<span class="nc" id="L88">                .header(&quot;ID-eliminado&quot;, id)</span>
+<span class="nc" id="L89">                .build();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

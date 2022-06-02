@@ -64,7 +64,6 @@ public class ObjetoResource  {
     } 
     
     @POST
-    @Path("crear")
     public Response Crear(Objeto nuevo){
         toBean.crear(nuevo);
         return Response.ok(nuevo)
@@ -73,7 +72,6 @@ public class ObjetoResource  {
     }
     
     @PUT
-    @Path("modificar")
     public Response Modificar(Objeto modificar){
         toBean.actualizar(modificar);
         return Response.ok(modificar)
