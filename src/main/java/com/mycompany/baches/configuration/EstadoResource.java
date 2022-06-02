@@ -36,6 +36,7 @@ public class EstadoResource {
     @Path("findAll")
     @Produces({"application/json; charset=UTF-8"})
     public Response findAll() {
+        //prueba
         List<Estado> registros = toBean.findAll();
         Long total = toBean.contar();
         registros.stream().forEach(u -> u.setNombre(u.getNombre().toUpperCase()));
