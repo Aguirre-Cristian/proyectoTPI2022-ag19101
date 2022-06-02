@@ -14,8 +14,9 @@ pipeline {
     //  Construyendo imágenes de Docker 
     stage('Building image') {
       steps{
-        sh 'echo '
-        sh 'docker build -t baches:1.0 ./'
+        script {
+          dockerImage = docker.build registry
+        }
       }
     }
     
@@ -33,8 +34,8 @@ pipeline {
      // Detención de contenedores Docker para una ejecución más limpia de Docker 
      stage('docker stop container') {
          steps {
-            sh 'docker ps -f name=baches:1.0 -q | xargs --no-run-if-empty docker container stop'
-            sh 'docker container ls -a -fname=baches:1.0 -q | xargs -r docker container rm'
+            sh 'docker ps -f name=bachesCointainer -q | xargs --no-run-if-empty docker container stop'
+            sh 'docker container ls -a -fname=bachesCointainer -q | xargs -r docker container rm'
          }
        }
     
