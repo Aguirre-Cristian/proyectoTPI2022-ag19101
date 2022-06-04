@@ -1,6 +1,7 @@
 pipeline {
     agent any 
     
+
     environment {
         //una vez que se registre en Docker Hub, use ese ID de usuario aquí
         registry = "crisagui/baches:1.0"
